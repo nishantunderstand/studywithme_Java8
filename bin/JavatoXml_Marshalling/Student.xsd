@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Define complex type for Student -->
+    <xs:complexType name="Student">
+        <xs:sequence>            
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="lastName" type="xs:string"/>
+            <xs:element name="id" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Define root element -->
+    <xs:element name="student" type="Student"/>
+
+</xs:schema>

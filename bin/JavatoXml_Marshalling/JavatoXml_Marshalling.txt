@@ -1,0 +1,10 @@
+final String JAXB_SCHEMA_LOCATION = "C:\\Users\\User\\eclipse-workspace\\studywithme\\src\\JavatoXml_Marshalling\\student.xsd";
+marshaller.setProperty(Marshaller.JAXB_SCHEMA_LOCATION, JAXB_SCHEMA_LOCATION);
+SchemaFactory sf = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+javax.xml.validation.Schema schema = sf.newSchema(new File(JAXB_SCHEMA_LOCATION));
+marshaller.setSchema(schema);
+marshaller.marshal(s1, file);
+
+
+
+

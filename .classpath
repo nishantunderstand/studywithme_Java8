@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/Documents/Eclipse/jar/jackson-databind-2.9.9.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Documents/Eclipse/jar/jaxb-api-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Documents/Eclipse/jar/jaxb-api-2.3.1.jar.zip"/>
+	<classpathentry kind="lib" path="C:/Users/User/Documents/Eclipse/Jackson/com.fasterxml.jackson.annotations.jar.zip"/>
+	<classpathentry kind="lib" path="C:/Users/User/Documents/Eclipse/Jackson/com.fasterxml.jackson.core.jar.zip"/>
+	<classpathentry kind="lib" path="C:/Users/User/Documents/Eclipse/Jackson/jackson-databind-2.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Documents/Eclipse/Jackson/jackson-core-2.14.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
