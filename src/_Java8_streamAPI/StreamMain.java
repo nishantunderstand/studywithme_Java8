@@ -1,14 +1,14 @@
-package _streamAPI;
+package _Java8_streamAPI;
 
 import java.util.List;
 
 /**
  * Sunday, May 25, 2025 11:51:25 AM
- * 
+ *
  * Stream API in Java 8+
  * -----------------------
  * Types of Stream Operations:
- * 
+ *
  * 1. Intermediate Operations:
  *    - These are lazy operations.
  *    - They return a new Stream.
@@ -20,7 +20,7 @@ import java.util.List;
  *      - distinct()
  *      - limit(long)
  *      - skip(long)
- * 
+ *
  * 2. Terminal Operations:
  *    - These trigger the actual processing of the stream.
  *    - They return a result (non-stream) or perform an action (e.g., void).
@@ -31,7 +31,7 @@ import java.util.List;
  *      - count()                   // returns long
  *      - anyMatch(), allMatch()    // return boolean
  *      - findFirst(), findAny()    // return Optional<T>
- * 
+ *
  * Note:
  * - A stream pipeline should end with a terminal operation.
  * - Intermediate operations are chained and evaluated lazily.

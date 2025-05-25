@@ -14,7 +14,7 @@ public class JsonToJava {
 		File file = new File(relPath);
 		System.out.println("Okay1");
 		ObjectMapper objectMapper = new ObjectMapper();
-		Address ad = objectMapper.readValue(file, Address.class); 
+		Address ad = objectMapper.readValue(file, Address.class);
 		System.out.println(ad.toString());
 
 	}

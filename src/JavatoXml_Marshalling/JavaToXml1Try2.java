@@ -12,10 +12,10 @@ import javax.xml.bind.Marshaller;
  * use @XmlType(propOrder = {"id", "firstName", "lastName"}) Absolute Address
  * --> Relative Address // File file = new
  * File("C:\\Users\\User\\eclipse-workspace\\studywithme\\src\\JavatoXml_Marshalling\\student.xml");
- * 
+ *
  * JAXB --need--> POJO & Annoation & Getter & Setter & JAXBContext & Marshaller
  * Object & FileOutputPath
- * 
+ *
  */
 public class JavaToXml1Try2 {
 	public static void main(String[] args) {

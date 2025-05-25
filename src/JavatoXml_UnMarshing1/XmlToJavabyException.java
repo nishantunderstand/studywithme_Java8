@@ -25,7 +25,7 @@ public class XmlToJavabyException {
 		/*
 		 * System.out.println(s2.getFirstName()); System.out.println(s2.getLastName());
 		 * System.out.println(s2.getId());
-		 * 
+		 *
 		 * s2.getFirstName(); s2.getLastName(); s2.getId(); s2.toString();
 		 */
 		System.out.println("Hii");
