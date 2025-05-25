@@ -3,6 +3,9 @@ package _streamAPI;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * Sunday, May 25, 2025 11:08:50 AM
@@ -20,6 +23,10 @@ import java.util.List;
  * 2. Mutable 
  * new ArrayList<>()
  * 
+ * 
+ * method reference Vs Lambda Operator 
+ * 
+ * Stream : Interface 
  * 
  */
 
@@ -41,6 +48,22 @@ public class StreamIntro {
 		System.out.println(list3);
 		
 		
-
+		// Stream Approach 1
+		Stream<Integer> stream = list1.stream();
+		List<Integer> evenList = stream.filter(i->i%2==0).collect(Collectors.toList());
+		System.out.println("Even Number By Stream :"+evenList);
+		
+		// Stream Approach 2;		
+		List<Integer> result = list1.stream().filter(i->i%2 ==0).collect(Collectors.toList());
+		System.out.println("Result in Single Line "+result);
+		
+		// Stream Approach 3 Printing
+		System.out.println("Printing Each One");
+		list1.stream().filter(i->i%2==0).forEach(i->System.out.println("Even Number "+i));  //<--
+		
+		System.out.println("Printing All at Once");
+		list1.stream().filter(i->i%2==0).forEach(System.out::println);  //<-- method reference
+		
+		
 	}
 }
