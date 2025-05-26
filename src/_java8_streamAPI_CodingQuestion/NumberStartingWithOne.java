@@ -5,11 +5,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Monday, May 26, 2025 10:57:55 PM 2. Given a list of integers, find out all
- * the numbers starting with 1 using Stream functions?
+ * Monday, May 26, 2025 10:57:55 PM 
+ * 2. Given a list of integers, find out all the numbers starting with 1 using Stream functions?
  * 
  * Why are we converting From Integer to String ?
- * 
  * startsWith is Applicable to String ONLY //<--
  */
 
