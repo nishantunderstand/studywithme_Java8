@@ -1,4 +1,4 @@
-package _Java7;
+package java7;
 
 public class UnderscoreInLiterals {
 
