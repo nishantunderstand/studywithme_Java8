@@ -20,7 +20,5 @@ public class a_EvenNumber {
 				.collect(Collectors.partitioningBy(num -> num % 2 == 0));
 		
 		System.out.println(partitionedMap);
-
-
 	}
 }
