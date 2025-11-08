@@ -12,7 +12,7 @@ Terminal operations (like forEach, collect, count, anyMatch, etc.) trigger actua
  */
 
 
-public class _StreamTerminalImportance {
+public class _StreamTerminal {
 	public static void main(String[] args) {
     System.out.println("===== Working ======== ");
 		List<Integer> myList = Arrays.asList(10, 15, 8, 49, 25, 98, 32);

@@ -24,65 +24,63 @@ public class p_mapToUpperCase {
     }
 }
   
-  
-  /**
-  boxed
-  
-  IntStream -> Stream<Integer>
-  LongStream -> Stream<Long>
-  DoubleStream -> Stream<Double>
-  
-  ===========================================  
-  
-  How to Convert to Stream ?
-  List = List.stream
-  Set =  
-  Map<K,V>
-  String
-  Arrays
-  
-  
-  
-  List
-  list.stream() → Stream<T>
-  Used to process List elements as a Stream
-  List<String> list = Arrays.asList("a", "b");
-  list.stream().forEach(System.out::println);
-  
-  Set
-  set.stream() → Stream<T>
-  Works same as List, but order is not guaranteed
-  Set<String> set = new HashSet<>(list);
-  set.stream().forEach(System.out::println);
-  
-  Map
-  map.entrySet().stream() → Stream<Map.Entry<K,V>>
-  For both key & value; can also stream keys or values separately
-  Map<Integer, String> map = Map.of(1, "A", 2, "B");
-  map.entrySet().stream()
-     .forEach(e -> System.out.println(e.getKey() + "=" + e.getValue()));
-  
-  Array
-  Arrays.stream(array) → Stream<T>
-  For Object arrays like String[], Integer[]
-  String[] arr = {"a", "b"};
-  Arrays.stream(arr).forEach(System.out::println);
-  
-  
-  String
-  string.chars() → IntStream
-  Returns Unicode code points of characters
-  Convert to characters using mapToObj(c -> (char)c)
-  
-  String input = "Java";
-  
-  IntStream of Unicode values
-  input.chars().forEach(System.out::println);
-  
-  Convert IntStream → Stream<Character> and print characters
-  input.chars()
-       .mapToObj(c -> (char)c)
-       .forEach(System.out::println);
 
-  
+/**
+boxed
+
+IntStream -> Stream<Integer>
+LongStream -> Stream<Long>
+DoubleStream -> Stream<Double>
+
+===========================================
+
+How to Convert to Stream ?
+List = List.stream
+Set =
+Map<K,V>
+Arrays
+String
+
+List
+list.stream() → Stream<T>
+Used to process List elements as a Stream
+List<String> list = Arrays.asList("a", "b");
+list.stream().forEach(System.out::println);
+
+Set
+set.stream() → Stream<T>
+Works same as List, but order is not guaranteed
+Set<String> set = new HashSet<>(list);
+set.stream().forEach(System.out::println);
+
+Map
+map.entrySet().stream() → Stream<Map.Entry<K,V>>
+For both key & value; can also stream keys or values separately
+Map<Integer, String> map = Map.of(1, "A", 2, "B");
+map.entrySet().stream()
+.forEach(e -> System.out.println(e.getKey() + "=" + e.getValue()));
+
+Array
+Arrays.stream(array) → Stream<T>
+For Object arrays like String[], Integer[]
+String[] arr = {"a", "b"};
+Arrays.stream(arr).forEach(System.out::println);
+
+
+String
+string.chars() → IntStream
+Returns Unicode code points of characters
+Convert to characters using mapToObj(c -> (char)c)
+
+String input = "Java";
+
+IntStream of Unicode values
+input.chars().forEach(System.out::println);
+
+Convert IntStream → Stream<Character> and print characters
+input.chars()
+.mapToObj(c -> (char)c)
+.forEach(System.out::println);
+
+
 */
