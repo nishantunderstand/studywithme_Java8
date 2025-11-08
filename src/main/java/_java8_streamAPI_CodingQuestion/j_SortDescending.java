@@ -5,16 +5,23 @@ import java.util.List;
 
 public class j_SortDescending {
 
-    public static void main(String[] args) {
-        List<Integer> myList = List.of(10, 15, 8, 45, 25, 98, 32, 12, 15);
+  public static void main(String[] args) {
+    List<Integer> myList = List.of(10, 15, 8, 45, 25, 98, 32, 12, 15);
 
-        myList.stream()
-                .sorted(Collections.reverseOrder())
-                .forEach(System.out::println);
+    myList.stream()
+      .sorted(Collections.reverseOrder())
+      .forEach(System.out::println);
+    myList.stream().sorted((a, b) -> Integer.compare(b, a)).forEach(System.out::println);
+    myList.stream().sorted((a, b) -> b.compareTo(a)).forEach(System.out::println);
 
-        //myList.stream().sorted((a,b)-> Integer.compareTo(b,a)).forEach(System.out::println);
-        /**
-         * What is wrong here ??
-         */
-    }
+  }
 }
+
+
+/**
+ IntelliJ Formatting : Ctrl+Alt+L
+ IntelliJ Compile and Run : Ctrl+Shift+f10
+ When to use compare or compareTo ?
+
+
+ */

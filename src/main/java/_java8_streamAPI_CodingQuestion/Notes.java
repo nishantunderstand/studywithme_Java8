@@ -1,45 +1,37 @@
 package _java8_streamAPI_CodingQuestion;
 
 public class Notes {
-  int sno;
-  String notename;
-  int count;
-  
-  public Notes() {
-    super();
-    // TODO Auto-generated constructor stub
+  private long tagId;
+  private String tagName;
+  private long value;
+
+  public Notes(long tagId, String tagName, long value) {
+    this.tagId = tagId;
+    this.tagName = tagName;
+    this.value = value;
   }
 
-  public Notes(int sno, String notename, int count) {
-    super();
-    this.sno = sno;
-    this.notename = notename;
-    this.count = count;
+  public long getTagId() {
+    return tagId;
   }
 
-  public int getSno() {
-    return sno;
+  public void setTagId(long tagId) {
+    this.tagId = tagId;
   }
 
-  public void setSno(int sno) {
-    this.sno = sno;
+  public String getTagName() {
+    return tagName;
   }
 
-  public String getNotename() {
-    return notename;
+  public void setTagName(String tagName) {
+    this.tagName = tagName;
   }
 
-  public void setNotename(String notename) {
-    this.notename = notename;
+  public long getValue() {
+    return value;
   }
 
-  public int getCount() {
-    return count;
+  public void setValue(long value) {
+    this.value = value;
   }
-
-  public void setCount(int count) {
-    this.count = count;
-  }
-  
-  
 }
