@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * integers list in java using Stream functions?
  */
 
-public class DistinctElements {
+public class _DistinctElements {
 	public static void main(String[] args) {
 		List<Integer> myList = Arrays.asList(1, 1, 85, 6, 2, 3, 65, 6, 45, 45, 5662, 2582, 2, 2, 266, 666, 656);
 		System.out.println("--- Method Reference ----");
