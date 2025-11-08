@@ -18,7 +18,8 @@ public class _o_SortAndConvertToStream {
 
 
 /**
-```md
+
+Difference B/W sort vs parallelSort
 
 | Aspect             | `Arrays.sort()`     | `Arrays.parallelSort()`         |
 | ------------------ | ------------------- | ------------------------------- |
@@ -27,9 +28,6 @@ public class _o_SortAndConvertToStream {
 | Speed (large data) | Slower              | Faster                          |
 | Introduced         | Java 1.2            | Java 8                          |
 | Use case           | Small/medium arrays | Large arrays on multi-core CPUs |
-
-
-```
 
 
  */
