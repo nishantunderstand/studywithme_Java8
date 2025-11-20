@@ -15,10 +15,16 @@ import java.util.stream.Collectors;
 public class b_NumberStartingWithOne {
 	public static void main(String[] args) {
 		List<Integer> myList = List.of(10, 15, 8, 49, 25, 98, 32);
-		myList.stream().map(s -> s + "").filter(s -> s.startsWith("1")).forEach(System.out::println);
+		myList.stream()
+      .map(s -> s + "")
+      .filter(s -> s.startsWith("1"))
+      .forEach(System.out::println);
 
 		// Store to a List
-		List<String> res = myList.stream().map(s -> s + "").filter(s -> s.startsWith("1")).collect(Collectors.toList());
+		List<String> res = myList.stream()
+      .map(s -> s + "")
+      .filter(s -> s.startsWith("1"))
+      .collect(Collectors.toList());
 
 		System.out.println(res);
 
