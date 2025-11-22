@@ -18,8 +18,7 @@ public class e_FindTheTotalNumberOfElements {
 		System.out.println("===== Stream Approach ====");
 		Long cnt = myList.stream().count();
 		System.out.println(cnt);
-		
-		
+
 		System.out.println("===== Array Approach ====");
 		int[] arr = {10, 15, 8, 49, 25, 98, 98, 32, 15};
 		Long cnt1 = Arrays.stream(arr).boxed().count();

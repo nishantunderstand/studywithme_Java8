@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  */
 public class k_ContainDuplicate {
   public static void main(String[] args) {
-    int[] nums = {1,2,3,4};
+    int[] nums = {1,2,3,4,2};
     /**
      * Without Java8
      * Iterate Over all the arrays.
@@ -22,23 +22,27 @@ public class k_ContainDuplicate {
     Arrays.stream(nums).boxed().forEach(System.out::println);
 
 
-
     Arrays.stream(nums)
       .boxed()
-      .filter(c->!seen.add(c))
+      .filter(c -> !seen.add(c))
       .findFirst()
-      .ifPresent(e->System.out.println(e));
-      // I just to return true or false
+      .ifPresent(e -> System.out.println(e));
+    // I just to return true or false
 
-      
-      List<Integer> myList = Arrays.stream(nums).boxed().collect(Collectors.toList());
-      HashSet<Integer> hs = new HashSet<>(myList);
-      if(hs.size()== myList.size()){
-        System.out.println("False");
-      }else{
-        System.out.println("Duplicate Present ");
-        System.out.println("True");
-      }
+
+    List<Integer> myList = Arrays.stream(nums).boxed().collect(Collectors.toList());
+    HashSet<Integer> hs = new HashSet<>(myList);
+    if (hs.size() == myList.size()) {
+      System.out.println("False");
+    } else {
+      System.out.println("Duplicate Present ");
+      System.out.println("True");
+    }
+
+    System.out.println("======  NEW APPOROACH   ======");
+    seen.clear();
+    boolean hasDuplicate = Arrays.stream(nums).boxed().anyMatch(n -> !seen.add(n));
+    System.out.println("Duplicate Present ?? " + hasDuplicate);
 
   }
 }

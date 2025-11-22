@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * Tuesday, May 27, 2025 6:24:56 PM 4. Given the list of integers, find the
  * first element of the list using Stream functions?
+ * ?? It works on Stirng as well Integer ? Does it have any Constraint ?
  */
 
 public class d_FindFirstElement {

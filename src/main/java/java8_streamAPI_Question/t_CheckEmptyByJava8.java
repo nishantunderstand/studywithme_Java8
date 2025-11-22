@@ -18,13 +18,16 @@ public class t_CheckEmptyByJava8 {
 
     System.out.println("======WORKING=======");
     Optional.ofNullable(list)
-      .filter(l->!l.isEmpty())
+      .filter(l -> !l.isEmpty())
       .ifPresentOrElse(
-        l-> l.forEach(System.out::println),
-        ()-> System.out.println("List is Empty or null")
+        l -> l.forEach(System.out::println),
+        () -> System.out.println("List is Empty or null")
       );
   }
 }
+
+
+// IfPresentorElse is used with Optional
 
 
 /**

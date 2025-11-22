@@ -14,7 +14,7 @@ public class r_CountWordArrayList {
   public static void main(String[] args) {
     List<String> names = Arrays.asList("AA", "BB", "AA", "AA");
     // For Count, I need HashMap
-
+    System.out.println("======  Apprach 1 ======");
     /**
     HashMap<String, Long> namesCnt1 = names.stream()
                                       .collect(Collectors.groupingBy(
@@ -25,33 +25,34 @@ public class r_CountWordArrayList {
      * Dependency Inversion Principle (DIP) and Interface Segregation concepts.
      */
 
+    System.out.println("======  Apprach 2 ======");
     Map<String, Long> namesCnt2 = names.stream()
       .collect(Collectors.groupingBy(
         Function.identity(),
         Collectors.counting()));
 
-    System.out.println("namesCnt2" +namesCnt2);
+    System.out.println("namesCnt2" + namesCnt2);
 
+    System.out.println("======  Apprach 3 ======");
+    HashMap<String, Long> namesCnt3 = names.stream()
+      .collect(Collectors.groupingBy(
+        Function.identity(),
+        HashMap::new,
+        Collectors.counting()));  //<-- Counting return Long
+    System.out.println("namesCnt3" + namesCnt3);
 
-     HashMap<String, Long> namesCnt3 = names.stream()
-                                             .collect(Collectors.groupingBy(
-                                             Function.identity(),
-                                             HashMap::new,
-                                             Collectors.counting()));  //<-- Counting return Long
-    System.out.println("namesCnt3" +namesCnt3);
-
-
-    HashMap<String, Integer> namesCnt4 = names.stream()
+    System.out.println("======  Apprach 4  ======");
+    Map<String, Integer> namesCnt4 = names.stream()
       .collect(Collectors.groupingBy(
         Function.identity(),
         HashMap::new,
         Collectors.summingInt(e -> 1) // counts as Integer
       ));
 
-    System.out.println("namesCnt4" +namesCnt4);
+    System.out.println("namesCnt4" + namesCnt4);
 
 
-
+    System.out.println("======  Apprach 5  ======");
     HashMap<String, Long> namesCnt5 = names.stream()
       .collect(Collectors.groupingBy(
         Function.identity(),
@@ -59,9 +60,7 @@ public class r_CountWordArrayList {
         Collectors.summingLong(e -> 1L)  //<-- // counts as Long
       ));
 
-    System.out.println("namesCnt5" +namesCnt5);
-
-
+    System.out.println("namesCnt5" + namesCnt5);
 
 
   }

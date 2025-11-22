@@ -16,7 +16,7 @@ public class h_FirstRepeated {
     System.out.println("=== HASHMAP Approach ====");
     Optional<Character> result1 =
       input.chars()
-        .mapToObj(c->Character.toLowerCase((char)c))
+        .mapToObj(c -> Character.toLowerCase((char) c))
         .collect(Collectors.groupingBy(
           Function.identity(),
           LinkedHashMap::new,
@@ -24,21 +24,20 @@ public class h_FirstRepeated {
         ))
         .entrySet()
         .stream()
-        .filter(e->e.getValue() > 1L)
-        .map(e->e.getKey())
+        .filter(e -> e.getValue() > 1L)
+        .map(e -> e.getKey())
         .findFirst();
 
-    result1.ifPresent(ch-> System.out.println(ch));
+    result1.ifPresent(ch -> System.out.println(ch));
 
-    System.out.println("====== HASHSET APPROACH ============" );
+    System.out.println("====== HASHSET APPROACH ============");
     HashSet<Character> seen = new HashSet<>();
 
     Optional<Character> result2 = input.chars()
-      .mapToObj(c->Character.toLowerCase((char)c))
-      .filter(c->!seen.add(c))
+      .mapToObj(c -> Character.toLowerCase((char) c))
+      .filter(c -> !seen.add(c))
       .findFirst();
-
-    result2.ifPresent(ch-> System.out.println(ch));
+    result2.ifPresent(ch -> System.out.println(ch));
 
   }
 }

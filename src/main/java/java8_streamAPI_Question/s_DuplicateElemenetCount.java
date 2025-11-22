@@ -9,23 +9,23 @@ import java.util.stream.Collectors;
  */
 public class s_DuplicateElemenetCount {
   public static void main(String[] args) {
-      List<String> names = Arrays.asList("AA","BB","AA","CC");
+    List<String> names = Arrays.asList("AA", "BB", "AA", "CC");
 
-      HashMap<String, Integer> namesCount  = names.stream()
-                                              .collect(Collectors.groupingBy(
-                                                Function.identity(),
-                                                HashMap::new,
-                                                Collectors.summingInt(e->1)
-                                              ));
+    Map<String, Integer> namesCount = names.stream()
+      .collect(Collectors.groupingBy(
+        Function.identity(),
+        HashMap::new,
+        Collectors.summingInt(e -> 1)
+      ));
 
 
-      // iterate over namesCount , Return the item whose values is greater than 1
-      namesCount.entrySet()
-        .stream()
-        .filter(e->e.getValue()>1)
-        .forEach(e->
-            System.out.println("Duplicate " + e.getKey() + " Count :" + e.getValue())
-          );
+    // iterate over namesCount , Return the item whose values is greater than 1
+    namesCount.entrySet()
+      .stream()
+      .filter(e -> e.getValue() > 1l) //<--
+      .forEach(e ->
+        System.out.println("Duplicate " + e.getKey() + " Count :" + e.getValue())
+      );
 
     System.out.println("======WORKING=======");
     names.stream()
@@ -36,7 +36,7 @@ public class s_DuplicateElemenetCount {
       ))
       .entrySet()
       .stream()
-      .filter(e -> e.getValue() > 1)
+      .filter(e -> e.getValue() > 1L) //<--
       .forEach(e ->
         System.out.println("Duplicate " + e.getKey() + "Count " + e.getValue())
       );
