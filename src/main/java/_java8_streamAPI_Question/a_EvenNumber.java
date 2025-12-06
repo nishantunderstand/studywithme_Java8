@@ -18,7 +18,9 @@ public class a_EvenNumber {
 
         // 1st Approach
         List<Integer> myList1 = Arrays.asList(10, 15, 8, 49, 25, 98, 32);
-        myList1.stream().filter(n -> n % 2 == 0).forEach(n -> System.out.print(n + "\t"));
+        myList1.stream()
+                .filter(n -> n % 2 == 0)
+                .forEach(n -> System.out.print(n + "\t"));
 
         // 2nd Approach
         int[] arr = {10, 15, 8, 49, 25, 98, 32};
@@ -28,3 +30,12 @@ public class a_EvenNumber {
         //System.out.println(partitionedMap);
     }
 }
+
+/**
+ * Sort Ascending : sorted()
+ * Sort Descending : sorted(Comparator.reverseOrder())
+ * Sort Descending : Collections.reverseOrder()
+ * Limit Output : limit()
+ * Skip Output : skip()
+ *
+ */
