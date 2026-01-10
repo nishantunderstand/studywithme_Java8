@@ -23,6 +23,9 @@ public class e_FindTheTotalNumberOfElements {
 		int[] arr = {10, 15, 8, 49, 25, 98, 98, 32, 15};
 		Long cnt1 = Arrays.stream(arr).boxed().count();
 		System.out.println(cnt1);
-		
+		System.out.println("====== Saturday, January 10, 2026 7:15:58 PM ======");
+		int res1 = Math.toIntExact(myList.stream().count());
+		System.out.println(res1);
+
 	}
 }

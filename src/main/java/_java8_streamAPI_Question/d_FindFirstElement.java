@@ -25,5 +25,12 @@ public class d_FindFirstElement {
 		
 		// Direct Sol
 		System.out.println(myList.get(0));
+
+		System.out.println("====== Saturday, January 10, 2026 6:47:53 PM ======");
+
+		myList.stream()
+				.findFirst()
+				.stream()
+				.forEach(System.out::println);
 	}
 }
