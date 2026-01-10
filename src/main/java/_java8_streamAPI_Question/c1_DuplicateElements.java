@@ -1,9 +1,7 @@
 package _java8_streamAPI_Question;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Tuesday, May 27, 2025 6:09:54 PM 3. How to find duplicate elements in a given
@@ -17,5 +15,15 @@ public class c1_DuplicateElements {
         // HashSet Approach
         Set<Integer> seen = new HashSet<Integer>();
         myList.stream().filter(s -> !seen.add(s)).forEach(System.out::println);
+
+        System.out.println("====== Saturday, January 10, 2026 6:36:14 PM ======");
+
+        myList.stream()
+                .collect(Collectors.groupingBy(n->n,Collectors.counting()))
+                .entrySet()
+                .stream()
+                .filter(e->e.getValue()>1)
+                .map(Map.Entry::getKey)
+                .forEach(System.out::println);
     }
 }
