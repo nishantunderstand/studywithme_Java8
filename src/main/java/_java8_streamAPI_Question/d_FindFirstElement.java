@@ -27,7 +27,7 @@ public class d_FindFirstElement {
 		System.out.println(myList.get(0));
 
 		System.out.println("====== Saturday, January 10, 2026 6:47:53 PM ======");
-
+		System.out.println("====== Java 9 Approach ======");
 		myList.stream()
 				.findFirst()
 				.stream()

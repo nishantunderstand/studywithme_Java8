@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
  * <p>
  * Why are we converting From Integer to String ?
  * startsWith is Applicable to String ONLY //<--
+ * start vs starts
  */
 
 public class b_NumberStartingWithOne {
@@ -31,7 +32,11 @@ public class b_NumberStartingWithOne {
 
         // Array Approach
         int[] arr = {10, 15, 8, 49, 25, 98, 32};
-        List<String> finalres = Arrays.stream(arr).boxed().map(s -> s + "").filter(s -> s.startsWith("1"))
+        List<String> finalres =
+                Arrays.stream(arr)
+                        .boxed()
+                        .map(s -> s + "")
+                        .filter(s -> s.startsWith("1"))
                 .collect(Collectors.toList());
 
         System.out.println(finalres);
