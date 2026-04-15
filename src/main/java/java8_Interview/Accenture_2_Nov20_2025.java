@@ -7,7 +7,7 @@ import java.util.stream.*;
 import java.util.function.*;
 
 
-class Accenture_Nov20_2025_1 {
+class Accenture_2_Nov20_2025 {
     public static void main(String[] args) {
         String str = "Hello World";
         System.out.println("String: " + str);

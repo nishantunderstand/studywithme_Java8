@@ -1,4 +1,4 @@
-package _java8_L2_lambdaExp;
+package java8_L2_lambdaExp;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package _java8_L5_advanced;
+package java8_L5_advanced;
 
 import java.util.List;
 import java.util.stream.Collectors;

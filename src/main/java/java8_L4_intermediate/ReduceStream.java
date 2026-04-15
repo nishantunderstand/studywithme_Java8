@@ -1,4 +1,4 @@
-package _java8_L4_intermediate;
+package java8_L4_intermediate;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,5 +1,6 @@
-package java8_streamAPI_Question;
+package _java8_streamAPI_Question_BlogDev;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -21,6 +22,9 @@ public class a_EvenNumber {
         myList1.stream()
                 .filter(n -> n % 2 == 0)
                 .forEach(n -> System.out.print(n + "\t"));
+        System.out.println();
+
+        System.out.println(" ============ ");
 
         // 2nd Approach
         int[] arr = {10, 15, 8, 49, 25, 98, 32};
@@ -28,6 +32,13 @@ public class a_EvenNumber {
                 .collect(Collectors.partitioningBy(num -> num % 2 == 0));
 
         //System.out.println(partitionedMap);
+
+        // 3rd || Java 16 NON-LTS Support
+        List<Integer> evenList = new ArrayList<>();
+        evenList = myList.stream().filter(n->n%2==0).toList();
+        System.out.println("evenList: " + evenList);
+
+
     }
 }
 

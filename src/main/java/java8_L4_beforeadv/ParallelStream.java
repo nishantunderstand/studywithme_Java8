@@ -1,4 +1,4 @@
-package _java8_L4_beforeadv;
+package java8_L4_beforeadv;
 
 import java.util.*;
 import java.util.stream.*;

@@ -1,4 +1,4 @@
-package java8_streamAPI_Question;
+package _java8_streamAPI_Question_BlogDev;
 
 import java.util.Arrays;
 import java.util.List;
@@ -23,6 +23,7 @@ public class d_FindFirstElement {
 		
 		System.out.println("===== Direct Approach ========");
 		
+		// We can Apply Stream Again on Optional From Java 9 Onward
 		// Direct Sol
 		System.out.println(myList.get(0));
 
@@ -32,5 +33,16 @@ public class d_FindFirstElement {
 				.findFirst()
 				.stream()
 				.forEach(System.out::println);
+
+		System.out.println("====== Java 9 IfPresentOrElse  ======");
+		System.out.println("====== Wednesday, April 15, 2026 12:26:39 AM ======");
+
+		myList.stream()
+				.findFirst()
+				.ifPresentOrElse(
+						value -> System.out.println("Value Found "+ value),
+						() -> System.out.println("No Value Found")
+				);
+
 	}
 }

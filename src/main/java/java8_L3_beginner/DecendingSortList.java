@@ -1,4 +1,4 @@
-package _java8_L3_beginner;
+package java8_L3_beginner;
 
 import java.util.Arrays;
 import java.util.Comparator;

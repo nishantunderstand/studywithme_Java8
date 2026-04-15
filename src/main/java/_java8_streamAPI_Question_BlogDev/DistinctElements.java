@@ -1,4 +1,4 @@
-package java8_streamAPI_Question;
+package _java8_streamAPI_Question_BlogDev;
 
 import java.util.Arrays;
 import java.util.HashSet;
