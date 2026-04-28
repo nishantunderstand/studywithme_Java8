@@ -31,8 +31,10 @@ public class a_EvenNumber {
         Map<Boolean, List<Integer>> partitionedMap = Arrays.stream(arr).boxed()
                 .collect(Collectors.partitioningBy(num -> num % 2 == 0));
 
-        //System.out.println(partitionedMap);
+        System.out.println(" ============ PARTITIOON APPROACH ::: ");
+        System.out.println(partitionedMap.get(true));
 
+        System.out.println(" ============ ");
         // 3rd || Java 16 NON-LTS Support
         List<Integer> evenList = new ArrayList<>();
         evenList = myList.stream().filter(n->n%2==0).toList();
@@ -48,5 +50,4 @@ public class a_EvenNumber {
  * Sort Descending : Collections.reverseOrder()
  * Limit Output : limit()
  * Skip Output : skip()
- *
  */

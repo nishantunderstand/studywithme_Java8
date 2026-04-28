@@ -13,7 +13,7 @@ import java.util.List;
  */
 
 
-public class _StreamTerminal {
+public class StreamTerminal {
 	public static void main(String[] args) {
     System.out.println("===== Working ======== ");
 		List<Integer> myList = Arrays.asList(10, 15, 8, 49, 25, 98, 32);
