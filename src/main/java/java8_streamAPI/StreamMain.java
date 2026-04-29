@@ -1,4 +1,4 @@
-package _java8_streamAPI;
+package java8_streamAPI;
 
 import java.util.List;
 

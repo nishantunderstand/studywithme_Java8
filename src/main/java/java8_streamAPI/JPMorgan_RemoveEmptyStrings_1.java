@@ -1,4 +1,4 @@
-package _java8_streamAPI;
+package java8_streamAPI;
 // https://www.youtube.com/shorts/KW-NOs2V2zA
 // https://www.instagram.com/reels/DWWnq0cpaiD/
 

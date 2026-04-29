@@ -1,4 +1,4 @@
-package _java8_streamAPI_Question_BlogDev;
+package java8_streamAPI_Question_BlogDev;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

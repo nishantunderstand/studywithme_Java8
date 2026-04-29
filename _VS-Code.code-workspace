@@ -1,8 +1,17 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "java.debug.settings.onBuildFailureProceed": true,
+
+        "[java]": {
+            "editor.quickSuggestions": false,
+            "editor.suggestOnTriggerCharacters": false,
+            "editor.parameterHints.enabled": false,
+            "editor.inlineSuggest.enabled": false
+        }
+    }
 }
