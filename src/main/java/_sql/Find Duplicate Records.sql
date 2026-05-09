@@ -5,6 +5,8 @@ FROM users
 GROUP BY email
 HAVING COUNT(*)>1
 
+---
+
 Group By Always come Before Having Count ? YES
 Logical order in a query:
 
@@ -73,3 +75,17 @@ RANK()
 DENSE_RANK()
 LEAD()
 LAG()
+
+
+---
+
+Can we solve this by Window Function ?
+
+SELECT *
+FROM (
+    SELECT 
+        u.*,
+        COUNT(*) OVER (PARTITION BY email) AS email_count
+    FROM users u
+) t
+WHERE email_count > 1;

@@ -1,11 +1,13 @@
 Nth Highest Salary
 
-2nd Highest Salary
 
+
+2nd Highest Salary
 SELECT MAX(salary)
 FROM employee
 WHERE employee.salary< (SELECT MAX(salary) FROM employee)
 
+---
 
 How to find Nth Highest Salary ?
 
@@ -14,12 +16,16 @@ How to find Nth Highest Salary ?
 - Window Function Approach
 SELECT salary
 FROM 
-(SELECT salary,
-	DENSE_RANK() OVER (ORDER BY salary DESC) as rnk 
-	FROM employee) x
-	where rnk = N
+(
+SELECT salary,
+DENSE_RANK() OVER (ORDER BY salary DESC) as rnk 
+FROM employee
+)x
+where rnk = N
 	
 	
+---
+
 OFFSET APPROACH
 
 SELECT DISTINCT salary
