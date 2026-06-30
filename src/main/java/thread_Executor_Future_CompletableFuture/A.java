@@ -1,4 +1,4 @@
-package _thread_Executor_Future_CompletableFuture;
+package thread_Executor_Future_CompletableFuture;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
