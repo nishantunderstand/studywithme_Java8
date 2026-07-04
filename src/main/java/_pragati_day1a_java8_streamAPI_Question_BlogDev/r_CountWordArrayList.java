@@ -1,4 +1,4 @@
-package java8_streamAPI_Question_BlogDev;
+package _pragati_day1a_java8_streamAPI_Question_BlogDev;
 
 import java.util.Arrays;
 import java.util.HashMap;
