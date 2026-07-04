@@ -1,4 +1,4 @@
-package JavatoXml_UnMarshing1;
+package javatoXml_UnMarshing1;
 
 import java.io.File;
 
@@ -8,7 +8,7 @@ import javax.xml.bind.Unmarshaller;
 import javatoXml_UnMarshing2.Student;
 
 /**
- * // String relativePath = "src\JavatoXml_UnMarshing1\student.xml"; // Wrong if
+ * // String relativePath = "src\javatoXml_UnMarshing1\student.xml"; // Wrong if
  * i add different, will it read or not ? Answer NO You can to String to fetch
  * the Data Or setter Method. Your choice.
  */
@@ -17,7 +17,7 @@ public class XmlToJavabyException {
 		// File file = new
 		// File("C:\\Users\\User\\eclipse-workspace\\studywithme\\src\\_JavatoXml_UnMarshing\\student.xml");
 
-		String relativePath = "src/JavatoXml_UnMarshing1/student.xml";
+		String relativePath = "src/javatoXml_UnMarshing1/student.xml";
 		File file = new File(relativePath);
 		JAXBContext jaxbContext = JAXBContext.newInstance(Student.class);
 		Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();

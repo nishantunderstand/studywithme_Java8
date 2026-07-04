@@ -1,4 +1,4 @@
-package JavatoXml_Marshalling;
+package javatoXml_Marshalling;
 
 /**
  * JAXB

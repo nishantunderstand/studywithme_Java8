@@ -1,4 +1,4 @@
-package JavatoXml_Marshalling;
+package javatoXml_Marshalling;
 /**
  * https://www.youtube.com/watch?v=iyPd7OZ6qXw&ab_channel=Infybuzz
  * you can use try block as well.
@@ -22,7 +22,7 @@ public class JavaToXml2Exception {
 		Marshaller marshaller = jaxbContext.createMarshaller();
 		marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 		File file = new File(
-				"C:\\Users\\User\\eclipse-workspace\\studywithme\\src\\JavatoXml_Marshalling\\student.xml");
+				"C:\\Users\\User\\eclipse-workspace\\studywithme\\src\\javatoXml_Marshalling\\student.xml");
 		marshaller.marshal(s1, file);
 		System.out.println("XML Generated");
 

@@ -1,4 +1,4 @@
-package JavatoXml_UnMarshing1;
+package javatoXml_UnMarshing1;
 
 /**
  * JAXB

@@ -1,4 +1,4 @@
-package JavatoXml_Marshalling;
+package javatoXml_Marshalling;
 
 import java.io.File;
 
@@ -27,7 +27,7 @@ public class JavaToXml3Schema {
 		// Create schema
 		SchemaFactory sf = SchemaFactory.newInstance(javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI);
 		Schema schema = sf.newSchema(
-				new File("C:\\Users\\User\\eclipse-workspace\\studywithme\\src\\JavatoXml_Marshalling\\student.xsd")); // assuming
+				new File("C:\\Users\\User\\eclipse-workspace\\studywithme\\src\\javatoXml_Marshalling\\student.xsd")); // assuming
 																														// you
 																														// saved
 																														// the
@@ -40,7 +40,7 @@ public class JavaToXml3Schema {
 
 		// Create file
 		File file = new File(
-				"C:\\Users\\User\\eclipse-workspace\\studywithme\\src\\JavatoXml_Marshalling\\student1.xml");
+				"C:\\Users\\User\\eclipse-workspace\\studywithme\\src\\javatoXml_Marshalling\\student1.xml");
 
 		// Marshal and validate
 		marshaller.marshal(s1, file);
