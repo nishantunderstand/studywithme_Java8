@@ -1,4 +1,4 @@
-package java8_streamAPI;
+package _pragati_day4_java8_streamAPI;
 
 import java.util.List;
 

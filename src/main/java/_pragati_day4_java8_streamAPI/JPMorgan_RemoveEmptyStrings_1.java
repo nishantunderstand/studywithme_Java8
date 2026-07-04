@@ -1,4 +1,4 @@
-package java8_streamAPI;
+package _pragati_day4_java8_streamAPI;
 // https://www.youtube.com/shorts/KW-NOs2V2zA
 // https://www.instagram.com/reels/DWWnq0cpaiD/
 

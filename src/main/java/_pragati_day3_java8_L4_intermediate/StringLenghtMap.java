@@ -1,4 +1,4 @@
-package java8_L4_intermediate;
+package _pragati_day3_java8_L4_intermediate;
 
 import java.util.Arrays;
 import java.util.HashMap;

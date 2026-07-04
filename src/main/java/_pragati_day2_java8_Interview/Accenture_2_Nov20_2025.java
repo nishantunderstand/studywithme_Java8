@@ -1,4 +1,4 @@
-package java8_Interview;
+package _pragati_day2_java8_Interview;
 
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online

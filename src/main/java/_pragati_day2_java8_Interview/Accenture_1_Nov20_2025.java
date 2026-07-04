@@ -1,4 +1,4 @@
-package java8_Interview;
+package _pragati_day2_java8_Interview;
 
 import java.util.Arrays;
 import java.util.HashMap;

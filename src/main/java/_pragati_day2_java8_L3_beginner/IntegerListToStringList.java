@@ -1,4 +1,4 @@
-package java8_L3_beginner;
+package _pragati_day2_java8_L3_beginner;
 
 import java.util.Arrays;
 import java.util.List;
