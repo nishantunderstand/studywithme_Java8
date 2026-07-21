@@ -1,4 +1,4 @@
-package java8_streamAPI_Question_BlogDev_1;
+package _java8_streamAPI_Question_BlogDev_1;
 
 import java.util.Collections;
 import java.util.List;
