@@ -28,3 +28,6 @@ https://blog.devgenius.io/java-8-coding-and-programming-interview-questions-and-
 List<Integer> myList =
 Arrays.asList(10,5,8,49,25,98,32,11,10,20,21,30,40,10,22,25,40,43,44);
 ---
+
+- Can we reuse Stream ? 
+- Java Streams cannot normally be reused after a terminal operation. Once consumed, we need to create a new Stream from the source.
