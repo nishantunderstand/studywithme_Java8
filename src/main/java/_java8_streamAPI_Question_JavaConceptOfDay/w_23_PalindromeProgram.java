@@ -12,6 +12,9 @@ import java.util.stream.IntStream;
 public class w_23_PalindromeProgram {
 
     public static void main(String[] args) {
+        // TODO :
+        String str = "ROTATOR";
+        // Palindrome
 
     }
 }

@@ -4,6 +4,7 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /**
  * @see <a href="https://javaconceptoftheday.com/java-8-interview-sample-coding-questions/">
@@ -12,6 +13,24 @@ import java.util.stream.IntStream;
 public class s_19_SumOfFirst10NaturalNumbers {
 
     public static void main(String[] args) {
+        int sum = IntStream.range(1,11).sum();
+        System.out.println("====== Saturday, July 25, 2026 2:50:02 PM ======");
+        System.out.println(sum);
+
+        System.out.println("====== Saturday, July 25, 2026 2:50:40 PM ======");
+        int sum2 = IntStream.rangeClosed(1,10).sum();
+        System.out.println(sum2);
+
+        int sum3 = Stream.iterate(1, n-> n+1)
+                .limit(10)
+                .mapToInt(Integer::valueOf)
+                .sum();
+        System.out.println("====== Saturday, July 25, 2026 2:55:56 PM ======");
+        System.out.println(sum3);
+
+
+
+
 
     }
 }
