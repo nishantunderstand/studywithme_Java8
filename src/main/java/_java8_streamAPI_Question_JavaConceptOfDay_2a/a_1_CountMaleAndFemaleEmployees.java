@@ -1,10 +1,10 @@
-package _java8_streamAPI_Question_JavaConceptOfDay_2;
+package _java8_streamAPI_Question_JavaConceptOfDay_2a;
 
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import static _java8_streamAPI_Question_JavaConceptOfDay_2.Main.employeeList;
+import static _java8_streamAPI_Question_JavaConceptOfDay_2a.Main.employeeList;
 
 /**
 * @see <a href="https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/">

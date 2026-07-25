@@ -1,6 +1,6 @@
-package _java8_streamAPI_Question_JavaConceptOfDay_2;
+package _java8_streamAPI_Question_JavaConceptOfDay_2a;
 
-import static _java8_streamAPI_Question_JavaConceptOfDay_2.Main.employeeList;
+import static _java8_streamAPI_Question_JavaConceptOfDay_2a.Main.employeeList;
 
 /**
 * @see <a href="https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/">

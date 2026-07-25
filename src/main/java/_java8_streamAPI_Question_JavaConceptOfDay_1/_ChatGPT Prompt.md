@@ -1,8 +1,8 @@
-I'm creating Java 8 Stream API practice template files — one file per question, in package `_java8_streamAPI_Question_JavaConceptOfDay`.
+I'm creating Java 8 Stream API practice template files — one file per question, in package `_java8_streamAPI_Question_JavaConceptOfDay_1`.
 
 For each question, generate a file with this exact structure:
 
-package _java8_streamAPI_Question_JavaConceptOfDay;
+package _java8_streamAPI_Question_JavaConceptOfDay_1;
 
 import java.util.*;
 import java.util.function.Function;

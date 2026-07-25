@@ -1,8 +1,5 @@
-package _java8_streamAPI_Question_JavaConceptOfDay;
+package _java8_streamAPI_Question_JavaConceptOfDay_1;
 
-import java.util.*;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 

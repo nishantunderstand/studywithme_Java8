@@ -1,4 +1,4 @@
-package _java8_streamAPI_Question_JavaConceptOfDay_2;
+package _java8_streamAPI_Question_JavaConceptOfDay_2a;
 
 import java.util.ArrayList;
 import java.util.List;

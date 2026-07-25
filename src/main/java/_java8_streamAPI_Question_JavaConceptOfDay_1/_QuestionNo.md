@@ -1,6 +1,6 @@
 At top of Each Class Declare them 
 
-package _java8_streamAPI_Question_JavaConceptOfDay;
+package _java8_streamAPI_Question_JavaConceptOfDay_1;
 
 import java.util.*;
 import java.util.function.Function;
