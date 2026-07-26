@@ -1,4 +1,4 @@
-package java8_streamAPI_Question_BlogDev;
+package java8_streamAPI_Question_BlogDev_PRAGATI;
 
 public class Notes {
   private long tagId;

@@ -1,8 +1,6 @@
-package _java8_streamAPI_Question_JavaConceptOfDay_2a;
+package _java8_streamAPI_Question_JavaConceptOfDay_2;
 
-import java.util.stream.Collectors;
-
-import static _java8_streamAPI_Question_JavaConceptOfDay_2a.Main.employeeList;
+import static _java8_streamAPI_Question_JavaConceptOfDay_2.Main.employeeList;
 
 /**
 * @see <a href="https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/">
@@ -11,9 +9,18 @@ import static _java8_streamAPI_Question_JavaConceptOfDay_2a.Main.employeeList;
 public class e_5_EmployeesJoinedAfter2015 {
 
     public static void main(String[] args) {
-
+        System.out.println("====== Saturday, July 25, 2026 6:31:55 PM ======");
+        // Print Full Details
         employeeList.stream()
-                .filter(emp -> emp.Employee::getYearOfJoining>2015)
-                .forEach((k,v)-> System.out.println(k+ "-> "+ v));
+                .filter(emp -> emp.getYearOfJoining()>2015)
+                .forEach(System.out::println);
+
+        System.out.println("====== Saturday, July 25, 2026 6:32:05 PM ======");
+        // Print Name
+        employeeList.stream()
+                .filter(emp -> emp.getYearOfJoining()>2015)
+                .map(Employee::getName)
+                .sorted()
+                .forEach(System.out::println);
     }
 }

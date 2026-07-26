@@ -1,4 +1,4 @@
-package _java8_streamAPI_Question_JavaConceptOfDay_2a;
+package _java8_streamAPI_Question_JavaConceptOfDay_2;
 
 /**
 * @see <a href="https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/">
@@ -8,5 +8,6 @@ public class g_7_AverageSalaryByDepartment {
 
     public static void main(String[] args) {
 
+        // TODO:
     }
 }

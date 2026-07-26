@@ -1,4 +1,4 @@
-package _java8_streamAPI_Question_JavaConceptOfDay_2a;
+package _java8_streamAPI_Question_JavaConceptOfDay_2;
 
 
 public class Employee {
