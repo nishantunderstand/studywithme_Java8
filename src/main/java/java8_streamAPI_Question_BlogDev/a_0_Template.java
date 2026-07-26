@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 import static java.util.Locale.filter;
 
-public class a__Template {
+public class a_0_Template {
     public static void main(String[] args) {
         List<Integer> myList = Arrays.asList(10, 15, 8, 49, 25, 98, 32, 16, 33);
         List<Integer> myList1 = new ArrayList<>();

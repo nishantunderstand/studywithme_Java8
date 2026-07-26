@@ -9,7 +9,7 @@ import java.util.List;
  * ?? It works on Stirng as well Integer ? Does it have any Constraint ?
  */
 
-public class d_FindFirstElement {
+public class d_4_FindFirstElement {
 	public static void main(String[] args) {
 		List<Integer> myList = Arrays.asList(10, 15, 8, 49, 25, 98, 98, 32, 15);
 		
@@ -46,3 +46,4 @@ public class d_FindFirstElement {
 
 	}
 }
+

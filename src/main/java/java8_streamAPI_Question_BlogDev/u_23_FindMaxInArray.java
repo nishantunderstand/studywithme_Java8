@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 21. Write a Program to find the Maximum element in an array?
  */
-public class u_FindMaxInArray {
+public class u_23_FindMaxInArray {
   public static void main(String[] args) {
     int[] arr = {1, 2, 3, 4, 5, 6, 99};
     int[] arr2 = {};

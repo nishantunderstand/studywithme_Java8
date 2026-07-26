@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  * 11. Given an integer array nums , return true if any value appears at least
  * twice in the array, and return false if every element is distinct.
  */
-public class k_ContainDuplicate {
+public class k_13_ContainDuplicate {
   public static void main(String[] args) {
     int[] nums = {1,2,3,4,2};
     /**
@@ -46,4 +46,5 @@ public class k_ContainDuplicate {
 
   }
 }
+
 

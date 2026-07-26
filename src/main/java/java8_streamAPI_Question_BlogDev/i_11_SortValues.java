@@ -7,7 +7,7 @@ import java.util.List;
  * 9. Given a list of integers, sort all the values present in it using Stream
  * functions?
  */
-public class i_SortValues {
+public class i_11_SortValues {
   public static void main(String[] args) {
     // List
     List<Integer> myList = Arrays.asList(10,15,18,8,49,25,98,32,15);
@@ -24,3 +24,4 @@ public class i_SortValues {
 
   }
 }
+

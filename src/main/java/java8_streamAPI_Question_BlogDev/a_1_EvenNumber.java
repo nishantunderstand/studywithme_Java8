@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * Monday, May 26, 2025 10:57:39 PM 1. Given a list of integers, find out all
  * the even numbers that exist in the list using Stream functions?
  */
-public class a_EvenNumber {
+public class a_1_EvenNumber {
 
     public static void main(String[] args) {
         // 1st Approach
@@ -51,3 +51,4 @@ public class a_EvenNumber {
  * Limit Output : limit()
  * Skip Output : skip()
  */
+

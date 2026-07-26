@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 /**
  * 16. How to use map to convert object into Uppercase in Java 8?
  */
-public class p_mapToUpperCase {
+public class p_18_mapToUpperCase {
 
     public static void main(String[] args) {
 
@@ -67,3 +67,4 @@ public class p_mapToUpperCase {
  *
 
   **/
+

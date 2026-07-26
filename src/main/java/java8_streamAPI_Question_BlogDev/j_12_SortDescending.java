@@ -3,7 +3,7 @@ package java8_streamAPI_Question_BlogDev;
 import java.util.Collections;
 import java.util.List;
 
-public class j_SortDescending {
+public class j_12_SortDescending {
 
     public static void main(String[] args) {
         List<Integer> myList = List.of(10, 15, 8, 45, 25, 98, 32, 12, 15);
@@ -24,3 +24,4 @@ public class j_SortDescending {
  *
  *
  */
+

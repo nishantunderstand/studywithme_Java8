@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 /**
  * 13. Write a Java 8 program to concatenate two Streams?
  */
-public class m_StreamAdd {
+public class m_15_StreamAdd {
   public static void main(String[] args) {
     List<String> l1 = Arrays.asList("Java","8");
     List<String> l2 = Arrays.asList("Explained","Through","Programs");
@@ -17,3 +17,4 @@ public class m_StreamAdd {
 
   }
 }
+

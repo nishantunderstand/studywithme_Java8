@@ -8,7 +8,7 @@ import java.util.List;
  * number of elements present in the list using Stream functions?
  */
 
-public class e_FindTheTotalNumberOfElements {
+public class e_7_FindTheTotalNumberOfElements {
 	public static void main(String[] args) {
 				
 		List<Integer> myList = Arrays.asList(10, 15, 8, 49, 25, 98, 98, 32, 15);
@@ -29,3 +29,4 @@ public class e_FindTheTotalNumberOfElements {
 
 	}
 }
+

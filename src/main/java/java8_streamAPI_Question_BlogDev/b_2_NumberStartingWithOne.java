@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  * start vs starts
  */
 
-public class b_NumberStartingWithOne {
+public class b_2_NumberStartingWithOne {
     public static void main(String[] args) {
         List<Integer> myList = List.of(10, 15, 8, 49, 25, 98, 32);
 
@@ -49,3 +49,4 @@ public class b_NumberStartingWithOne {
 				.forEach(System.out::println);
     }
 }
+

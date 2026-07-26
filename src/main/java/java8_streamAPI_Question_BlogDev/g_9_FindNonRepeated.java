@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  * Nov 8, 2025,9:29:24 AM
  * 7. Given a String, find the first non-repeated character in it using Stream functions?
  */
-public class g_FindNonRepeated {
+public class g_9_FindNonRepeated {
 
     public static void main(String[] args) {
       String input = "ava articles are Awesome";
@@ -48,3 +48,4 @@ public class g_FindNonRepeated {
 
     }
 }
+

@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  * Tuesday, May 27, 2025 6:09:54 PM 3. How to find duplicate elements in a given
  * integers list in java using Stream functions?
  */
-public class c2_DuplicateElements {
+public class c_3_2_DuplicateElements {
 
     public static void main(String[] args) {
         System.out.println("=== Hello World ===");
@@ -48,3 +48,4 @@ public class c2_DuplicateElements {
         res2.forEach(System.out::println);
     }
 }
+
