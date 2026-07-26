@@ -1,5 +1,8 @@
 package java8_streamAPI_Question_JavaConceptOfDay_1;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @see <a href="https://javaconceptoftheday.com/java-8-interview-sample-coding-questions/">
  *     Java 8 Interview Sample Coding Questions </a>
@@ -7,6 +10,9 @@ package java8_streamAPI_Question_JavaConceptOfDay_1;
 public class b_2_RemoveDuplicateElements {
 
     public static void main(String[] args) {
+        List<String> listOfStrings = Arrays.asList("Java", "Python", "C#", "Java", "Kotlin", "Python");
+        listOfStrings.stream().distinct().forEach(System.out::println);
+
 
     }
 }

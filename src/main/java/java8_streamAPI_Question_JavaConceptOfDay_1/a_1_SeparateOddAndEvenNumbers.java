@@ -2,6 +2,8 @@ package java8_streamAPI_Question_JavaConceptOfDay_1;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @see <a href="https://javaconceptoftheday.com/java-8-interview-sample-coding-questions/">
@@ -20,8 +22,14 @@ public class a_1_SeparateOddAndEvenNumbers {
 
 
         System.out.println("======  Mixed ======");
+        listOfIntegers.stream().collect(Collectors.partitioningBy(i->i%2==0)).forEach((k,v) -> System.out.print(k+"->"+v));
 
-
+        System.out.println("====== Sunday, July 26, 2026 12:30:27 PM ======");
+        Map<Boolean,List<Integer>> oddEvenList =  listOfIntegers.stream().collect(Collectors.partitioningBy(i->i%2==0));
+        System.out.println("====== Sunday, July 26, 2026 12:32:53 PM ======\n");
+        for(Map.Entry<Boolean, List<Integer>> entry : oddEvenList.entrySet()){
+            System.out.println(entry.getKey() + "-> "+ entry.getValue());
+        }
 
     }
 }
