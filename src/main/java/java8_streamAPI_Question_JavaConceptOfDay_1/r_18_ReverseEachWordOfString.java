@@ -1,4 +1,4 @@
-package java8_streamAPI_Question_JavaConceptOfDay_1_PRAGATI;
+package java8_streamAPI_Question_JavaConceptOfDay_1;
 
 /**
  * @see <a href="https://javaconceptoftheday.com/java-8-interview-sample-coding-questions/">

@@ -1,4 +1,4 @@
-package java8_streamAPI_Question_BlogDev_PRAGATI;
+package java8_streamAPI_Question_BlogDev;
 
 import java.util.HashSet;
 import java.util.LinkedHashMap;

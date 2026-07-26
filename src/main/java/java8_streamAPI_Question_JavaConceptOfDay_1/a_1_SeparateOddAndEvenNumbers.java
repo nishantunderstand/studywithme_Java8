@@ -1,9 +1,7 @@
-package java8_streamAPI_Question_JavaConceptOfDay_1_PRAGATI;
+package java8_streamAPI_Question_JavaConceptOfDay_1;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
 /**
  * @see <a href="https://javaconceptoftheday.com/java-8-interview-sample-coding-questions/">
