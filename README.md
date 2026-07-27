@@ -23,3 +23,11 @@ https://www.scientecheasy.com/2018/07/core-java-tutorial.html/
 
 - Refer this Website 
 - Really Awesome Website
+
+
+- [Java](https://xmind.ai/SbL37CW8?xid=FAdudWo9)
+- [Spring](https://xmind.ai/gZ0ZdIEQ?xid=FAdudWo9)
+- [DSA](https://xmind.ai/gX4koiGM)
+- [HLD-LLD](https://app.xmind.com/share/oydr1ye9?xid=9BxXIL89)
+- [SQL](https://app.xmind.com/share/C4HR5n5b?xid=YovOLAhi)
+- [Study](https://app.xmind.com/share/pleTPnsD?xid=pJqOO8BU)
