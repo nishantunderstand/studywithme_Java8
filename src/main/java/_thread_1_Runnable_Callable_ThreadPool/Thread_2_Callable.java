@@ -1,4 +1,4 @@
-package _thread_Recap;
+package _thread_1_Runnable_Callable_ThreadPool;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -7,7 +7,8 @@ import java.util.concurrent.Future;
 
 
 // Please Note : You need to declare Checked Exception Otherwise it will not run.
-public class Thread1 {
+
+public class Thread_2_Callable {
     public static void main(String[] args) throws Exception{
         ExecutorService ex = Executors.newSingleThreadExecutor();
         Callable<Integer> tk = () -> 1000;
