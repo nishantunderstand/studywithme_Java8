@@ -1,10 +1,6 @@
-package java8_streamAPI_BlogDev;
+package _java8_streamAPI_BlogDev;
 
-import java.time.LocalDateTime;
 import java.util.*;
-import java.util.function.Function;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import static java.util.Locale.filter;
 /**
