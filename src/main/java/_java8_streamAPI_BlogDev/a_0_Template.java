@@ -14,13 +14,9 @@ import static java.util.Locale.filter;
  */
 public class a_0_Template {
     public static void main(String[] args) {
-        List<Integer> myList = Arrays.asList(10, 15, 8, 49, 25, 98, 32, 16, 33,10, 10, 10, 10, 11, 11, 11, 12, 12);
-        List<Integer> myList2 = Arrays.asList(1,2,3,4,5,6,7,8,9);
+        List<Integer> mylist = Arrays.asList(10, 15, 8, 49, 25, 98, 32, 16, 33,10, 10, 10, 10, 11, 11, 11, 12, 12);
         String input = "Java articles are Awesome";
-        List<String> myList4 = Arrays.asList("Java","String","Awesome");
         List<String> names = Arrays.asList("AA", "BB", "AA", "CC");
         int[] arr = {11,12,13,14,15,16,99,99};
-
-
     }
 }
