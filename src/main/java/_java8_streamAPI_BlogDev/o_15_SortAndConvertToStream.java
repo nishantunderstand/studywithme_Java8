@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 15. Write a Java 8 program to sort an array and then convert the sorted array into Stream?
  */
-public class o_17_SortAndConvertToStream {
+public class o_15_SortAndConvertToStream {
   public static void main(String[] args) {
     int arr[] = { 99, 55, 203, 99, 4, 91 };
     //Arrays.sort(arr); 
@@ -31,3 +31,4 @@ Difference B/W sort vs parallelSort
 
 
  */
+

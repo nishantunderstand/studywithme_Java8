@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 /**
  *19. How to find only duplicate elements with its count from the String ArrayList in Java8?
  */
-public class s_21_DuplicateElemenetCount {
+public class s_19_DuplicateElemenetCount {
   public static void main(String[] args) {
     List<String> names = Arrays.asList("AA", "BB", "AA", "CC");
 
@@ -42,4 +42,5 @@ public class s_21_DuplicateElemenetCount {
       );
   }
 }
+
 

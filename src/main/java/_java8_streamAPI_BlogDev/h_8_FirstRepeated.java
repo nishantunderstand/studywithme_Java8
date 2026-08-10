@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * 8. Given a String, find the first repeated character in it using Stream functions?
  *
  */
-public class h_10_FirstRepeated {
+public class h_8_FirstRepeated {
   public static void main(String[] args) {
     String input = "Java Articles are Awesome";
     System.out.println("=== HASHMAP Approach-1 ====");
@@ -56,4 +56,5 @@ public class h_10_FirstRepeated {
 
   }
 }
+
 

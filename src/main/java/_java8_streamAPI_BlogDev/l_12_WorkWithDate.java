@@ -7,7 +7,7 @@ import java.time.LocalTime;
 /**
  * 12. How will you get the current date and time using Java 8 Date and Time API?
  */
-public class l_14_WorkWithDate {
+public class l_12_WorkWithDate {
   public static void main(String[] args) {
 
     System.out.println(LocalDate.now());
@@ -15,4 +15,5 @@ public class l_14_WorkWithDate {
     System.out.println(LocalDateTime.now());
   }
 }
+
 

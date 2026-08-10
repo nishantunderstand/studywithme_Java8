@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 /**
  * 18. How to count each element/word from the String ArrayList in Java8?
  */
-public class r_20_CountWordArrayList {
+public class r_18_CountWordArrayList {
   public static void main(String[] args) {
     List<String> names = Arrays.asList("AA", "BB", "AA", "AA");
     // For Count, I need HashMap
@@ -74,3 +74,4 @@ public class r_20_CountWordArrayList {
  * - summingLong(e -> 1L) → returns Long
  * - summingDouble(e -> 1.0) → returns Double
  */
+

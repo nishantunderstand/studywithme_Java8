@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 /**
  * 22. Write a program to print the count of each character in a String?
  */
-public class v_24_CharacterCount {
+public class v_22_CharacterCount {
   public static void main(String[] args) {
     String input = "String data to count each character";
     System.out.println("=== Blank Space is Also Getting prinited ======");
@@ -46,4 +46,5 @@ public class v_24_CharacterCount {
 
   }
 }
+
 

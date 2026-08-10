@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 /**
  * 17. How to convert a List of objects into a Map by considering duplicated keys and store them in sorted order?
  */
-public class q_19_ListMapRemoveDuplicateKeys {
+public class q_17_ListMapRemoveDuplicateKeys {
   public static void main(String[] args) {
     List<Notes> noteLst = new ArrayList<>();
     noteLst.add(new Notes(1, "note1", 11));
@@ -27,4 +27,5 @@ public class q_19_ListMapRemoveDuplicateKeys {
 
   }
 }
+
 

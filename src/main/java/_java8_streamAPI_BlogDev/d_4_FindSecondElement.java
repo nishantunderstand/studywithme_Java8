@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Find Second Highest
  */
-public class d_6_FindSecondElement {
+public class d_4_FindSecondElement {
 
     public static void main(String[] args) {
         List<Integer> myList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
@@ -20,4 +20,5 @@ public class d_6_FindSecondElement {
                 .ifPresent(System.out::println);
     }
 }
+
 
