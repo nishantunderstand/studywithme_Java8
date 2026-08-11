@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 /**
  * 21. Write a Program to find the Maximum element in an array?
+ * Refer to {@link f_6_FindMaxElement_IMP} for the implementation.
  */
+
 public class u_21_FindMaxInArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 99};
@@ -26,6 +28,10 @@ public class u_21_FindMaxInArray {
         //Java-21
         System.out.println("======  3  ======");
         Arrays.stream(arr).max().stream().forEach(System.out::println);
+
+        System.out.println("======  4 ======\n");
+        Arrays.stream(arr).max().ifPresent(System.out::println);
+        // Arrays.stream(arr).max(Integer::compare).findFirst().ifPresent(System.out::println); // Incorrect Code
 
 
     }

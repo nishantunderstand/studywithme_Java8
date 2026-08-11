@@ -18,16 +18,16 @@ It's like removing Initial Friction.
 
 
 ---
+- https://www.scientecheasy.com/2018/07/core-java-tutorial.html/
+- Refer this Website , Really Awesome Website. Really Awesome. According to me.
 
-https://www.scientecheasy.com/2018/07/core-java-tutorial.html/
+---
+Wednesday, August 12, 2026 1:17:06 AM
 
-- Refer this Website 
-- Really Awesome Website
+Java Notes : 
 
-
-- [Java](https://xmind.ai/SbL37CW8?xid=FAdudWo9)
-- [Spring](https://xmind.ai/gZ0ZdIEQ?xid=FAdudWo9)
-- [DSA](https://xmind.ai/gX4koiGM)
-- [HLD-LLD](https://app.xmind.com/share/oydr1ye9?xid=9BxXIL89)
-- [SQL](https://app.xmind.com/share/C4HR5n5b?xid=YovOLAhi)
-- [Study](https://app.xmind.com/share/pleTPnsD?xid=pJqOO8BU)
+1. 1 Way Linking : {@link f_6_FindMaxElement_IMP}
+- I tested by updating and modifying name. We are good to go.
+- So we are good to go.
+- You can trust me.
+2. 2 Way linking 
