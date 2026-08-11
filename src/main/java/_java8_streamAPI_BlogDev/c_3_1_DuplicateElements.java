@@ -4,7 +4,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Tuesday, May 27, 2025 6:09:54 PM 3. How to find duplicate elements in a given
+ * Tuesday, May 27, 2025 6:09:54 PM
+ * 3. How to find duplicate elements in a given
  * integers list in java using Stream functions?
  */
 public class c_3_1_DuplicateElements {
@@ -16,13 +17,13 @@ public class c_3_1_DuplicateElements {
         Set<Integer> seen = new HashSet<Integer>();
         myList.stream().filter(s -> !seen.add(s)).forEach(System.out::println);
 
-        System.out.println("====== Saturday, January 10, 2026 6:36:14 PM ======");
 
+        System.out.println("====== Saturday, January 10, 2026 6:36:14 PM ======");
         myList.stream()
-                .collect(Collectors.groupingBy(n->n,Collectors.counting()))
+                .collect(Collectors.groupingBy(n -> n, Collectors.counting()))
                 .entrySet()
                 .stream()
-                .filter(e->e.getValue()>1)
+                .filter(e -> e.getValue() > 1)
                 .map(Map.Entry::getKey)
                 .forEach(System.out::println);
     }

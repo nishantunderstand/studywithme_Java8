@@ -15,14 +15,14 @@ public class c_3_2_DuplicateElements {
 
     public static void main(String[] args) {
         System.out.println("=== Hello World ===");
-        List<Integer> myList = Arrays.asList(0,1,2,3,4,5,6,7,8,9,1,2,3,4);
+        List<Integer> myList = Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4);
         Set<Integer> seen = new HashSet<>();
         var res = myList.stream()
-                .filter(n->!seen.add(n))
+                .filter(n -> !seen.add(n))
                 .findFirst();
 
         res.ifPresentOrElse(
-                value -> System.out.println("Duplicate : "+value),
+                value -> System.out.println("Duplicate : " + value),
                 () -> System.out.println("No Duplicate Found")
         );
 
@@ -31,7 +31,7 @@ public class c_3_2_DuplicateElements {
         System.out.println("=== Duplicate Element List ===");
 
         var res1 = myList.stream()
-                .filter(n->!seen.add(n))
+                .filter(n -> !seen.add(n))
                 .collect(Collectors.toList());
 
         res1.forEach(System.out::println);
@@ -42,7 +42,7 @@ public class c_3_2_DuplicateElements {
         System.out.println("=== Duplicate Element List Latest ===");
 
         var res2 = myList.stream()
-                .filter(n->!seen.add(n))
+                .filter(n -> !seen.add(n))
                 .toList();
 
         res2.forEach(System.out::println);

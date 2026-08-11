@@ -9,7 +9,6 @@
 // 8. Given a String, find the first repeated character in it using Stream functions?
 // 9. Given a list of integers, sort all the values present in it using Stream functions?
 // 10. Given a list of integers, sort all the values present in it in descending order using Stream functions?
-
 // 11. Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 // 12. How will you get the current date and time using Java 8 Date and Time API?125
 // 13. Write a Java 8 program to concatenate two Streams?

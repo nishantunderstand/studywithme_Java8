@@ -8,21 +8,21 @@ import java.util.List;
  * functions?
  */
 public class i_9_SortValues {
-  public static void main(String[] args) {
-    // List
-    List<Integer> myList = Arrays.asList(10,15,18,8,49,25,98,32,15);
-    //myList.stream().sorted().forEach(System.out::println);
-    myList.stream()
-      .sorted()
-      .forEach(e->System.out.println(e));
+    public static void main(String[] args) {
+        // List
+        List<Integer> myList = Arrays.asList(10, 15, 18, 8, 49, 25, 98, 32, 15);
+        //myList.stream().sorted().forEach(System.out::println);
+        myList.stream()
+                .sorted()
+                .forEach(e -> System.out.println(e));
 
 
-    // Arrays
-    //int[] arr = new int[10,15,18,8,49,25,98,32,15];
-    int[] arr = {10,15,18,8,49,25,98,32,15};
-    Arrays.stream(arr).boxed().sorted().forEach(System.out::println);
+        // Arrays
+        //int[] arr = new int[10,15,18,8,49,25,98,32,15];
+        int[] arr = {10, 15, 18, 8, 49, 25, 98, 32, 15};
+        Arrays.stream(arr).boxed().sorted().forEach(System.out::println);
 
-  }
+    }
 }
 
 

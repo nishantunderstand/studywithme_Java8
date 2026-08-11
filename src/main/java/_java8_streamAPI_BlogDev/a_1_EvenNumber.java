@@ -7,7 +7,8 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Monday, May 26, 2025 10:57:39 PM 1. Given a list of integers, find out all
+ * Monday, May 26, 2025 10:57:39 PM
+ * 1. Given a list of integers, find out all
  * the even numbers that exist in the list using Stream functions?
  */
 public class a_1_EvenNumber {
@@ -37,7 +38,7 @@ public class a_1_EvenNumber {
         System.out.println(" ============ ");
         // 3rd || Java 16 NON-LTS Support
         List<Integer> evenList = new ArrayList<>();
-        evenList = myList.stream().filter(n->n%2==0).toList();
+        evenList = myList.stream().filter(n -> n % 2 == 0).toList();
         System.out.println("evenList: " + evenList);
 
 

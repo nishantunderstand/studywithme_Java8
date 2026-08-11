@@ -37,16 +37,16 @@ public class b_2_NumberStartingWithOne {
                         .boxed()
                         .map(s -> s + "")
                         .filter(s -> s.startsWith("1"))
-                .collect(Collectors.toList());
+                        .collect(Collectors.toList());
 
         System.out.println(finalres);
 
-		// Industry Standard
-		System.out.println("====== Industry Standard ======= ");
-		myList.stream()
-				.map(String::valueOf)
-				.filter(s-> s.startsWith("1"))
-				.forEach(System.out::println);
+        // Industry Standard
+        System.out.println("====== Industry Standard ======= ");
+        myList.stream()
+                .map(String::valueOf)
+                .filter(s -> s.startsWith("1"))
+                .forEach(System.out::println);
     }
 }
 
