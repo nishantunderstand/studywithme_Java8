@@ -30,4 +30,4 @@ Java Notes :
 - I tested by updating and modifying name. We are good to go.
 - So we are good to go.
 - You can trust me.
-2. 2 Way linking 
+2. 2 Way linking

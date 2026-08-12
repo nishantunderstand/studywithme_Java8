@@ -22,7 +22,7 @@ public class Accenture_4_Nov202025_2ndHeighestFreq {
                 ))
                 .entrySet()
                 .stream()
-                .sorted(Map.Entry.<Character,Long> comparingByValue().reversed()) //<--
+                .sorted(Map.Entry.<Character,Long> comparingByValue().reversed()) //<--  Important Line
                 .skip(1)
                 .map(Map.Entry::getKey)
                 .findFirst() //<-- // Why FindFirst is used here ???

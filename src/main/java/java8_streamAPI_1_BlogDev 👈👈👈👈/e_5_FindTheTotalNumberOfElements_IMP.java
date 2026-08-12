@@ -16,7 +16,7 @@ public class e_5_FindTheTotalNumberOfElements_IMP {
         System.out.println(myList.size());
 
         System.out.println("===== Stream Approach ====");
-        Long cnt = myList.stream().count();
+        Long cnt = myList.stream().count(); //<-- Is it UpperCase or LowerCase ???
         System.out.println(cnt);
 
         System.out.println("===== Array Approach ====");

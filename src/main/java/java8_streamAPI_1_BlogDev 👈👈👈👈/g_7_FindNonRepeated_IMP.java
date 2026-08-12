@@ -15,21 +15,6 @@ public class g_7_FindNonRepeated_IMP {
         String input = "Java articles are Awesome";
         System.out.println(input);
 
-        Character result1 = input.chars()
-                .mapToObj(s -> Character.toLowerCase(Character.valueOf((char) s)))
-                .collect(Collectors.groupingBy(
-                        Function.identity(),
-                        LinkedHashMap::new,
-                        Collectors.counting()
-                ))
-                .entrySet()
-                .stream()
-                .filter(e -> e.getValue() == 1L) //<--
-                .map(e -> e.getKey())
-                .findFirst()
-                .orElse(null);
-
-        System.out.println(result1);
 
         System.out.println("====== 2026 Version Directly Answer======\n");
         System.out.println("====== Wednesday, August 12, 2026 12:51:51 AM ======\n");
@@ -48,6 +33,27 @@ public class g_7_FindNonRepeated_IMP {
                 .ifPresent(System.out::println);
 
 
+
+
+
+
+
+        Character result1 = input.chars()
+                .mapToObj(s -> Character.toLowerCase(Character.valueOf((char) s)))
+                .collect(Collectors.groupingBy(
+                        Function.identity(),
+                        LinkedHashMap::new,
+                        Collectors.counting()
+                ))
+                .entrySet()
+                .stream()
+                .filter(e -> e.getValue() == 1L) //<--
+                .map(e -> e.getKey())
+                .findFirst()
+                .orElse(null);
+
+        System.out.println(result1);
+
         System.out.println("======  Approach 2 No Need to use value of   ======");
         Optional<Character> result2 =
                 input.chars()
@@ -65,6 +71,9 @@ public class g_7_FindNonRepeated_IMP {
 
 
         result2.ifPresent(ch -> System.out.println(ch));
+
+
+
 
 
     }
