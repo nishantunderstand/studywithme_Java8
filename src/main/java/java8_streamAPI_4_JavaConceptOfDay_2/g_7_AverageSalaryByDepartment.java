@@ -8,6 +8,6 @@ public class g_7_AverageSalaryByDepartment {
 
     public static void main(String[] args) {
 
-        // TODO:
+        // TODO
     }
 }

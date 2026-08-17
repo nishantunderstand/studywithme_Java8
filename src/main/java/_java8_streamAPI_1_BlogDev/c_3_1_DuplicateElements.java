@@ -1,4 +1,4 @@
-package java8_streamAPI_1_BlogDev;
+package _java8_streamAPI_1_BlogDev;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -14,6 +14,7 @@ public class c_3_1_DuplicateElements {
         List<Integer> myList = Arrays.asList(10, 15, 8, 49, 25, 98, 98, 32, 15);
 
         // HashSet Approach
+        // TODO : How to explain to interviewer
         Set<Integer> seen = new HashSet<Integer>();
         myList.stream().filter(s -> !seen.add(s)).forEach(System.out::println);
 

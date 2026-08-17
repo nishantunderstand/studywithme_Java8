@@ -1,4 +1,4 @@
-package java8_streamAPI_1_BlogDev;
+package _java8_streamAPI_1_BlogDev;
 
 import java.util.Arrays;
 import java.util.List;
@@ -47,6 +47,10 @@ public class b_2_NumberStartingWithOne {
                 .map(String::valueOf)
                 .filter(s -> s.startsWith("1"))
                 .forEach(System.out::println);
+
+
+        // Can we use ifPresent
+        // TODO
     }
 }
 
