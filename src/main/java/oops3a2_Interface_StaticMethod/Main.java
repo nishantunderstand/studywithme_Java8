@@ -1,4 +1,4 @@
-package oops3a_Abstraction_StaticMethod;
+package oops3a2_Interface_StaticMethod;
 
 public class Main {
     public static void main(String[] args) {

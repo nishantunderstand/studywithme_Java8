@@ -1,4 +1,4 @@
-package oops3b_Abstraction_PrivateMethod;
+package oops3b_Interface_PrivateMethod;
 
 public class Main {
     public static void main(String[] args) {

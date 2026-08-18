@@ -1,4 +1,4 @@
-package oops3b_Abstraction_PrivateMethod;
+package oops3b_Interface_PrivateMethod;
 
 public interface Logger {
     default void info(){
