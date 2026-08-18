@@ -12,7 +12,7 @@ public class a_Deloite_1_Fibonacci_Series_Stream {
         System.out.println("====== Past Interview ======\n");
         Stream.iterate(
                         new int[]{0, 1},
-                        arr -> new int[]{arr[1], arr[0] + arr[1]}
+                        arr -> new int[]{arr[1], arr[0] + arr[1]} //<--
                 ).limit(10)
                 .map(arr -> arr[0])
                 .forEach(System.out::println);

@@ -1,4 +1,4 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -40,15 +40,19 @@ public class k_11_ContainDuplicate_IMP {
             System.out.println("True");
         }
 
+
+
+
         System.out.println("======  APPOROACH 2   ======");
         seen.clear();
         boolean hasDuplicate = Arrays.stream(nums).boxed().anyMatch(n -> !seen.add(n));
         System.out.println("Duplicate Present ?? " + hasDuplicate);
 
 
+
+
+        // Best Approach
         System.out.println("====== Approach 3 Length Approach ======\n");
-
-
         boolean hasDuplicate2026 =
                 Arrays.stream(arr)
                         .distinct()

@@ -1,4 +1,4 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.util.Arrays;
 import java.util.List;
@@ -14,9 +14,21 @@ public class d_4_FindFirstElement {
     public static void main(String[] args) {
         List<Integer> myList = Arrays.asList(10, 15, 8, 49, 25, 98, 98, 32, 15);
 
+        // TODO : Can we use forEach on Optional ?
+        // Java 8 : Not allowed
+        // Java 9 : Allowed you can apply stream twice ?
+        // TODO : Is it violiating Stream resuse one ?
+
         // myList.stream().findFirst().forEach(System.out::println);  //<-- Will Not WORK
         System.out.println("===== if Present ========");
         myList.stream().findFirst().ifPresent(System.out::println);
+
+        System.out.println("====== Monday, August 17, 2026 8:18:53 PM ======\n");
+        myList.stream()
+                .findFirst()
+                .stream()
+                .forEach(System.out::println);
+
 
         System.out.println("===== get ========");
         Integer res = myList.stream().findFirst().get();

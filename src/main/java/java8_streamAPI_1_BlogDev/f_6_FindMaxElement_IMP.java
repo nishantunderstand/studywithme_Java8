@@ -1,4 +1,4 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.util.Arrays;
 import java.util.List;
@@ -18,6 +18,8 @@ public class f_6_FindMaxElement_IMP {
         System.out.println(max);
 
 
+
+
         System.out.println("===== Array Approach ====");
         int[] arr = {10, 15, 8, 49, 25, 98, 98, 32, 15, 9999999};
         Integer max1 = Arrays.stream(arr).boxed().max(Integer::compare).get();
@@ -27,10 +29,14 @@ public class f_6_FindMaxElement_IMP {
         Integer max2 = myList.stream().max(Integer::compare).orElse(-1);
         System.out.println(max2);
 
-        System.out.println("===== Stream Approach -3 ====");
+        System.out.println("===== Stream Approach -3 - For Interview One ====");
         myList.stream().max(Integer::compare).ifPresent(System.out::println);
+        // TODO : I need to pass Compare or CompareTo ??
+        // Comparable  :compareTo : Natural
+        // Comparator : compare : Customized Sorting
+        // TODO : Can we solve by compareTo as well ??
 
-        System.out.println("===== Stream Approach -4 ====");
+        System.out.println("===== Stream Approach -4  - Better One====");
         List<Integer> myList1 = Arrays.asList(); // Update it
         myList1.stream()
                 .max(Integer::compare)

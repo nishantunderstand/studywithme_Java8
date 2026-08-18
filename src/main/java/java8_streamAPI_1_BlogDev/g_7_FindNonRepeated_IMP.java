@@ -1,4 +1,4 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.util.LinkedHashMap;
 import java.util.Optional;
@@ -8,6 +8,10 @@ import java.util.stream.Collectors;
 /**
  * Nov 8, 2025,9:29:24 AM
  * 7. Given a String, find the first non-repeated character in it using Stream functions?
+ *
+ * First Non-Repeated Character : == 1L
+ * First Repeated Character  :  >1L
+ *
  */
 public class g_7_FindNonRepeated_IMP {
 
@@ -26,16 +30,13 @@ public class g_7_FindNonRepeated_IMP {
                         Collectors.counting()
                 ))
                 .entrySet()
-                .stream()
+                .stream() //<--
                 .filter(e -> e.getValue() == 1L) //<--
                 .map(e -> e.getKey())
                 .findFirst()
                 .ifPresent(System.out::println);
 
-
-
-
-
+        System.out.println("====== Monday, August 17, 2026 11:30:36 PM ======\n");
 
 
         Character result1 = input.chars()

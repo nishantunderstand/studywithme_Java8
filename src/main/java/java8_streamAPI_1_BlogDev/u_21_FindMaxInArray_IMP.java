@@ -1,4 +1,4 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.util.Arrays;
 
@@ -32,6 +32,8 @@ public class u_21_FindMaxInArray_IMP {
         System.out.println("======  4 ======\n");
         Arrays.stream(arr).max().ifPresent(System.out::println);
         // Arrays.stream(arr).max(Integer::compare).findFirst().ifPresent(System.out::println); // Incorrect Code
+
+        // TODO :  DO I need to pass Comparator as well ???
 
 
     }

@@ -12,3 +12,6 @@ public class a_Deloite_2_isPrime_2026 {
                 .forEach(System.out::println);
     }
 }
+
+// Intstream WRONG
+// IntStream // CORRECT

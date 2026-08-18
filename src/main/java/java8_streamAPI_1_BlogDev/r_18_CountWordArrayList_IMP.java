@@ -1,4 +1,4 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -62,6 +62,15 @@ public class r_18_CountWordArrayList_IMP {
 
         System.out.println("namesCnt5" + namesCnt5);
 
+
+        System.out.println("====== Approach 6 ======\n");
+        System.out.println("====== Monday, August 17, 2026 11:38:34 PM ======\n");
+
+        names.stream()
+                .collect(Collectors.groupingBy(
+                        Function.identity(),
+                        Collectors.counting()
+                )).forEach((k,v)-> System.out.println(k+"->"+v));
 
     }
 }

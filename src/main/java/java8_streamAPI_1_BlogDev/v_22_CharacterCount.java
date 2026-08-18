@@ -1,4 +1,4 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.util.HashMap;
 import java.util.function.Function;
@@ -30,18 +30,30 @@ public class v_22_CharacterCount {
         System.out.println("=== Avoid Blank Space is Also Getting prinited ======");
         input.chars()
                 .mapToObj(c -> Character.toLowerCase((char) c))
-                .filter(Character::isLetter)
+                .filter(Character::isLetter) //<--
                 .collect(Collectors.groupingBy(
                         Function.identity(),
                         HashMap::new,
-                        Collectors.summingInt(e -> 1)
+                        Collectors.counting()
                 ))
                 .entrySet()  //<--
-                .forEach(
-                        e -> System.out.println(
-                                "Key : " + e.getKey() + " \t Value :" + e.getValue()
-                        )
-                );
+                .forEach(e -> System.out.println("Key : " + e.getKey() + " \t Value :" + e.getValue()));
+
+
+        System.out.println("====== Monday, August 17, 2026 11:46:43 PM ======\n");
+        System.out.println("======  NEW APPROACH DIRECT ======\n");
+
+        input.chars()
+                .mapToObj(c -> Character.toLowerCase((char) c))
+                .filter(Character::isLetter) //<--
+                .collect(Collectors.groupingBy(
+                        Function.identity(),
+                        HashMap::new,
+                        Collectors.counting()
+                ))
+                .forEach((k,v)-> System.out.println(k+"->"+v));
+
+
 
 
     }

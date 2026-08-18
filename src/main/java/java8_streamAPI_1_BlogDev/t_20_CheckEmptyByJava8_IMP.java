@@ -1,11 +1,11 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.util.*;
 
 /**
  * 20. How to check if list is empty in Java 8 using Optional, if not null iterate through the list and print the object?
  */
-public class t_20_CheckEmptyByJava8 {
+public class t_20_CheckEmptyByJava8_IMP {
     public static void main(String[] args) {
         List<Integer> list1 = Arrays.asList(1, 2, 3, 4, 5, 6);
         List<Integer> list = new ArrayList<>();
@@ -18,7 +18,7 @@ public class t_20_CheckEmptyByJava8 {
 
         System.out.println("======WORKING=======");
         Optional.ofNullable(list)
-                .filter(l -> !l.isEmpty())
+                .filter(l -> !l.isEmpty()) //<--
                 .ifPresentOrElse(
                         l -> l.forEach(System.out::println),
                         () -> System.out.println("List is Empty or null")

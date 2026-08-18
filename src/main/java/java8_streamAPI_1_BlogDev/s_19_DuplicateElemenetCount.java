@@ -1,4 +1,4 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.util.*;
 import java.util.function.Function;
@@ -28,17 +28,18 @@ public class s_19_DuplicateElemenetCount {
                 );
 
         System.out.println("======WORKING=======");
+        System.out.println("====== Monday, August 17, 2026 11:41:14 PM ======\n");
         names.stream()
                 .collect(Collectors.groupingBy(
                         Function.identity(),
                         LinkedHashMap::new,
-                        Collectors.summingInt(e -> 1)
+                        Collectors.counting()
                 ))
                 .entrySet()
                 .stream()
                 .filter(e -> e.getValue() > 1L) //<--
                 .forEach(e ->
-                        System.out.println("Duplicate " + e.getKey() + "Count " + e.getValue())
+                        System.out.println("Duplicate : " + e.getKey() + " \t Count " + e.getValue())
                 );
     }
 }

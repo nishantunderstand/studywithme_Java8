@@ -30,5 +30,6 @@ public class CountOccurenceOfEachWords {
                 ))
                 .forEach((k, v) -> System.out.println(k + " -> " + v));
     }
-
 }
+
+// You need to write System.out.println in the code.

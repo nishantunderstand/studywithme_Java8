@@ -1,7 +1,20 @@
-- Is this Sync to Github ? Yes 
 
-- Saturday, November 8, 2025 2:15:15 PM
-- Definitely it is Synced with Github.
+Monday, August 17, 2026 8:16:06 PM
+- Use TODO to track it.
+- It works on Java Files Only.
+- You need to fully able to explain Stream Question.
+
+--
+Wednesday, August 12, 2026 1:17:06 AM
+
+Java Notes :
+
+1. 1 Way Linking : {@link f_6_FindMaxElement_IMP}
+- I tested by updating and modifying name. We are good to go.
+- So we are good to go.
+- You can trust me.
+2. 2 Way linking
+
 
 ---
 
@@ -16,18 +29,11 @@ That's why you can recap again and again.
 You don't need to add Initial Setup.
 It's like removing Initial Friction.
 
-
 ---
 - https://www.scientecheasy.com/2018/07/core-java-tutorial.html/
 - Refer this Website , Really Awesome Website. Really Awesome. According to me.
-
 ---
-Wednesday, August 12, 2026 1:17:06 AM
 
-Java Notes : 
-
-1. 1 Way Linking : {@link f_6_FindMaxElement_IMP}
-- I tested by updating and modifying name. We are good to go.
-- So we are good to go.
-- You can trust me.
-2. 2 Way linking
+- Saturday, November 8, 2025 2:15:15 PM
+- Is this Sync to Github ? Yes
+- Definitely it is Synced with Github.

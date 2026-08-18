@@ -1,4 +1,4 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -9,6 +9,7 @@ import java.time.LocalTime;
  */
 public class l_12_WorkWithDate {
     public static void main(String[] args) {
+
         System.out.println(LocalDate.now());
         System.out.println(LocalTime.now());
         System.out.println(LocalDateTime.now());

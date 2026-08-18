@@ -1,4 +1,4 @@
-package _java8_streamAPI_1_BlogDev;
+package java8_streamAPI_1_BlogDev;
 
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -24,7 +24,7 @@ public class h_8_FirstRepeated {
                         ))
                         .entrySet()
                         .stream()
-                        .filter(e -> e.getValue() > 1L)
+                        .filter(e -> e.getValue() > 1L) //<--
                         .map(e -> e.getKey())
                         .findFirst();
         result1.ifPresent(ch -> System.out.println(ch));
