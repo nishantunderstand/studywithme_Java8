@@ -1,4 +1,15 @@
+Wednesday, August 19, 2026 10:25 PM
 
+Regarding Notes
+I am always thankful for Original User.
+I am not taking your credit.
+I just have FOMO of notes getting lost.
+That's why i am keeping a copy that's all.
+I am always thankful to you.
+
+
+
+---
 Monday, August 17, 2026 8:16:06 PM
 - Use TODO to track it.
 - It works on Java Files Only.
