@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Production Scenario-Based Interview Guide</title>
 <style>
-  :root {
+    :root {
     --bg: #0f1117;
     --panel: #161925;
     --panel-border: #262b3d;
@@ -17,58 +17,59 @@
     --tag-example: #7a5c3d;
     --tag-fix: #4a3d7a;
     --tag-root: #7a3d4a;
-  }
-  * { box-sizing: border-box; }
-  body {
+    }
+    * { box-sizing: border-box; }
+    body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background: var(--bg);
     color: var(--text);
     line-height: 1.6;
-  }
-  .wrap { max-width: 880px; margin: 0 auto; padding: 40px 24px 100px; }
-  header { text-align: center; margin-bottom: 40px; }
-  header h1 {
+    }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 40px 24px 100px; }
+    header { text-align: center; margin-bottom: 40px; }
+    header h1 {
     font-size: 1.9rem;
     margin-bottom: 8px;
     background: linear-gradient(90deg, #6ea8fe, #a68bfa);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-  }
-  header p { color: var(--muted); font-size: 0.95rem; }
-  .toc {
+    }
+    header p { color: var(--muted); font-size: 0.95rem; }
+    .toc {
     background: var(--panel);
     border: 1px solid var(--panel-border);
     border-radius: 12px;
     padding: 20px 24px;
     margin-bottom: 36px;
-  }
-  .toc h2 { margin-top: 0; font-size: 1.1rem; color: var(--accent); }
-  .toc-section { margin-bottom: 14px; }
-  .toc-section h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 8px; }
-  .toc ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 24px; }
-  .toc li { font-size: 0.85rem; margin-bottom: 4px; break-inside: avoid; }
-  .toc a { color: var(--text); text-decoration: none; }
-  .toc a:hover { color: var(--accent); text-decoration: underline; }
+    }
+    .toc h2 { margin-top: 0; font-size: 1.1rem; color: var(--accent); }
+    .toc-section { margin-bottom: 14px; }
+    .toc-section h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted);
+    margin: 0 0 8px; }
+    .toc ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 24px; }
+    .toc li { font-size: 0.85rem; margin-bottom: 4px; break-inside: avoid; }
+    .toc a { color: var(--text); text-decoration: none; }
+    .toc a:hover { color: var(--accent); text-decoration: underline; }
 
-  .part-title {
+    .part-title {
     font-size: 1.3rem;
     margin: 48px 0 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid var(--accent-soft);
     color: var(--accent);
-  }
+    }
 
-  .card {
+    .card {
     background: var(--panel);
     border: 1px solid var(--panel-border);
     border-radius: 12px;
     padding: 22px 26px;
     margin-bottom: 20px;
     scroll-margin-top: 20px;
-  }
-  .qnum {
+    }
+    .qnum {
     display: inline-block;
     background: var(--accent-soft);
     color: var(--accent);
@@ -77,15 +78,15 @@
     padding: 2px 10px;
     border-radius: 20px;
     margin-bottom: 10px;
-  }
-  .question {
+    }
+    .question {
     font-size: 1.05rem;
     font-weight: 600;
     margin: 0 0 14px;
     color: #fff;
-  }
-  .block { margin-bottom: 12px; }
-  .label {
+    }
+    .block { margin-bottom: 12px; }
+    .label {
     display: inline-block;
     font-size: 0.72rem;
     font-weight: 700;
@@ -94,39 +95,39 @@
     padding: 2px 8px;
     border-radius: 4px;
     margin-bottom: 6px;
-  }
-  .label.example { background: var(--tag-example); color: #ffe0b2; }
-  .label.approach { background: var(--tag-approach); color: #c8f7dc; }
-  .label.root { background: var(--tag-root); color: #ffd6de; }
-  .label.fix { background: var(--tag-fix); color: #ded6ff; }
-  .block p { margin: 4px 0; color: var(--text); font-size: 0.94rem; }
-  .block ul { margin: 4px 0; padding-left: 20px; }
-  .block li { font-size: 0.94rem; margin-bottom: 3px; }
-  code {
+    }
+    .label.example { background: var(--tag-example); color: #ffe0b2; }
+    .label.approach { background: var(--tag-approach); color: #c8f7dc; }
+    .label.root { background: var(--tag-root); color: #ffd6de; }
+    .label.fix { background: var(--tag-fix); color: #ded6ff; }
+    .block p { margin: 4px 0; color: var(--text); font-size: 0.94rem; }
+    .block ul { margin: 4px 0; padding-left: 20px; }
+    .block li { font-size: 0.94rem; margin-bottom: 3px; }
+    code {
     background: var(--code-bg);
     padding: 1px 6px;
     border-radius: 4px;
     font-family: "SF Mono", Consolas, Monaco, monospace;
     font-size: 0.85em;
     color: #9ecbff;
-  }
-  pre {
+    }
+    pre {
     background: var(--code-bg);
     border: 1px solid var(--panel-border);
     border-radius: 8px;
     padding: 14px 16px;
     overflow-x: auto;
     margin: 8px 0;
-  }
-  pre code {
+    }
+    pre code {
     background: none;
     padding: 0;
     color: #cfe3ff;
     font-size: 0.82rem;
     line-height: 1.5;
-  }
-  footer { text-align: center; color: var(--muted); font-size: 0.8rem; margin-top: 60px; }
-  a.backtotop { color: var(--accent); text-decoration: none; font-size: 0.78rem; }
+    }
+    footer { text-align: center; color: var(--muted); font-size: 0.8rem; margin-top: 60px; }
+    _.backtotop { color: var(--accent); text-decoration: none; font-size: 0.78rem; }
 </style>
 </head>
 <body>

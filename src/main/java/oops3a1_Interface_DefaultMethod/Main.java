@@ -7,7 +7,12 @@ package oops3a1_Interface_DefaultMethod;
 public class Main {
     public static void main(String[] args) {
         System.out.println("====== Tuesday, August 18, 2026 8:19:29 PM ======\n");
-        Car c1 = new Car();
-        c1.start();
+//        Car c1 = new Car();
+//        c1.start();
+
+
+
+        SuperCar c2 = new SuperCar();
+        c2.start();
     }
 }
