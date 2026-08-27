@@ -1,4 +1,4 @@
-package _covariant;
+package _covariantReturnType;
 
 class Dog extends Animal {
 

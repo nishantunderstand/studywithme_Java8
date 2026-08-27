@@ -1,4 +1,4 @@
-package _covariant;
+package _covariantReturnType;
 
 public class Main {
     public static void main(String[] args) {
