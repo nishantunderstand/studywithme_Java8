@@ -1,4 +1,4 @@
-package oops2Inheritance;
+package oops2_Inheritance;
 
 public class Parent {
     public void start(){
