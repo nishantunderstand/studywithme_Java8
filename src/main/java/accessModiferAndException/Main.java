@@ -1,4 +1,4 @@
-package _accessModiferAndException;
+package accessModiferAndException;
 
 public class Main {
 

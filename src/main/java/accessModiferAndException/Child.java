@@ -1,6 +1,4 @@
-package _accessModiferAndException;
-
-import java.io.IOException;
+package accessModiferAndException;
 
 class Child extends Parent {
 

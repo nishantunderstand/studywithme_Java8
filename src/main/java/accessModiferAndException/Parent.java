@@ -1,6 +1,4 @@
-package _accessModiferAndException;
-
-import java.io.IOException;
+package accessModiferAndException;
 
 public class Parent {
     void test() throws Exception {

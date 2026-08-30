@@ -1,4 +1,4 @@
-package _covariantReturnType;
+package covariantReturnType;
 
 class Animal {
     Animal createAnimal() {
