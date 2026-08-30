@@ -1,0 +1,21 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "java.debug.settings.onBuildFailureProceed": true,
+
+        "[java]": {
+            "editor.quickSuggestions": {
+                "comments": "off",
+                "strings": "off",
+                "other": "off"
+            },
+            "editor.suggestOnTriggerCharacters": false,
+            "editor.parameterHints.enabled": false,
+            "editor.inlineSuggest.enabled": false
+        }
+    }
+}
