@@ -1,6 +1,9 @@
 package java8_streamAPI_1_BlogDev;
 
 import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
 /**
  * Created : Thursday, August 6, 2026 2:17:51 PM
  *
@@ -15,8 +18,8 @@ public class a_0_Template {
         List<String> names = Arrays.asList("AA", "BB", "AA", "CC");
         int[] arr = {11, 12, 13, 14, 15, 11, 16, 99, 99};
         int[] nums = {11, 12, 13, 14, 15, 11, 16, 99, 99};
-
         String input = "Java articles are Awesome";
+        // 19. How to find only duplicate elements with its count from the String ArrayList in Java8?
 
     }
 }

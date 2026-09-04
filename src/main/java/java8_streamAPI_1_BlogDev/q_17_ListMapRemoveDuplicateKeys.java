@@ -15,6 +15,7 @@ public class q_17_ListMapRemoveDuplicateKeys {
         noteLst.add(new Notes(4, "note4", 14));
         noteLst.add(new Notes(5, "note5", 15));
         noteLst.add(new Notes(6, "note2", 16));  //<--
+        // TODO
         Map<String, Long> notesRecord =
                 noteLst.stream().sorted(Comparator.comparingLong(Notes::getTagId).reversed())
                         .collect(Collectors.toMap(
@@ -22,6 +23,7 @@ public class q_17_ListMapRemoveDuplicateKeys {
                                 Notes::getTagId,
                                 (oldValue, newValue) -> oldValue, LinkedHashMap::new
                         ));
+
         notesRecord.forEach((k, v) -> System.out.println(k + " = " + v));
 
 
