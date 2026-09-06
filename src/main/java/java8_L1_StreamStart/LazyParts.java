@@ -5,13 +5,16 @@ import java.util.List;
 
 public class LazyParts {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		List<Integer> list = Arrays.asList(1,2,3,4,5,6,7);
-		
-		list.stream().filter(n -> {
-			System.out.println("no. is "+n);
-			return n%2==0;}).forEach(System.out::println);
-	}
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
+
+        list.stream().filter(n -> {
+            System.out.println("no. is " + n);
+            return n % 2 == 0;
+        }).forEach(System.out::println);
+    }
 
 }
+// Sunday, September 6, 2026 3:48:17 PM
+// IDK What i am doing as of now ?

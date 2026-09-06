@@ -8,7 +8,7 @@ public class CountStringLenght {
 	public static void main(String[] args) {
 		
 		List<String> list = Arrays.asList("Airtel", "Sun", "Planet", "Sky", "Internet");
-		
+
 		Long res = list.stream().filter(n -> n.length() > 5).count();
 				//.collect(Collectors.counting());
 		
