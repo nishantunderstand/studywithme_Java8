@@ -15,7 +15,7 @@ public class f_6_CountEmployeesByDepartment {
 
         employeeList.stream()
                 .collect(Collectors.groupingBy(
-                        Employee::getDepartment,
+                        Employee1::getDepartment,
                         Collectors.counting()
                 ))
                 .forEach((k,v)-> System.out.println(k + "-> "+v));
@@ -24,7 +24,7 @@ public class f_6_CountEmployeesByDepartment {
 
         Map<String, Long> empDepList =  employeeList.stream()
                 .collect(Collectors.groupingBy(
-                        Employee::getDepartment,
+                        Employee1::getDepartment,
                         Collectors.counting()
                 ));
         for(Map.Entry<String,Long> entry : empDepList.entrySet()){

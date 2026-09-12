@@ -23,7 +23,7 @@ public class a_1_CountMaleAndFemaleEmployees {
 
         System.out.println("====== Saturday, July 25, 2026 4:23:01 PM ======");
 
-        Map<Employee, Long> noOfMaleAndFemale = employeeList.stream()
+        Map<Employee1, Long> noOfMaleAndFemale = employeeList.stream()
                 .collect(Collectors.groupingBy(
                         Function.identity(),
                         Collectors.counting()

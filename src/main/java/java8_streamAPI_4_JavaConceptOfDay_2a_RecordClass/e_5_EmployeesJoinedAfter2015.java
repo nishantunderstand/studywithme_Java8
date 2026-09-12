@@ -19,7 +19,7 @@ public class e_5_EmployeesJoinedAfter2015 {
         // Print Name
         employeeList.stream()
                 .filter(emp -> emp.getYearOfJoining()>2015)
-                .map(Employee::getName)
+                .map(Employee1::getName)
                 .sorted()
                 .forEach(System.out::println);
     }

@@ -1,7 +1,7 @@
 package java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass;
 
 
-public class Employee {
+public class Employee1 {
     private int id;
     private String name;
     private int age;
@@ -11,10 +11,10 @@ public class Employee {
     private double salary;
 
 
-    public Employee() {
+    public Employee1() {
     }
 
-    public Employee(int id, String name, int age, String gender, String department, int yearOfJoining, double salary) {
+    public Employee1(int id, String name, int age, String gender, String department, int yearOfJoining, double salary) {
         this.id = id;
         this.name = name;
         this.age = age;

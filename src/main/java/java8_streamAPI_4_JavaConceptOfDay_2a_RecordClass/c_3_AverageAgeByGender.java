@@ -16,8 +16,8 @@ public class c_3_AverageAgeByGender {
         Map<String, Double> averageAgeBygender =
                 employeeList.stream()
                         .collect(Collectors.groupingBy(
-                            Employee::getGender,
-                            Collectors.averagingDouble(Employee::getAge)
+                            Employee1::getGender,
+                            Collectors.averagingDouble(Employee1::getAge)
         ));
         System.out.println(averageAgeBygender);
 
@@ -25,8 +25,8 @@ public class c_3_AverageAgeByGender {
         Map<String, Double> averageByDep =
                 employeeList.stream()
                         .collect(Collectors.groupingBy(
-                                Employee::getDepartment,
-                                Collectors.averagingDouble(Employee::getAge)
+                                Employee1::getDepartment,
+                                Collectors.averagingDouble(Employee1::getAge)
                         ));
         System.out.println(averageByDep);
     }

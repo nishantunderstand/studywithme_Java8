@@ -13,7 +13,7 @@ public class d_4_HighestPaidEmployee {
 
     public static void main(String[] args) {
         // Global Max
-        employeeList.stream().max(Comparator.comparingDouble(Employee::getSalary)).ifPresent(System.out::println);
+        employeeList.stream().max(Comparator.comparingDouble(Employee1::getSalary)).ifPresent(System.out::println);
         System.out.println("====== Saturday, July 25, 2026 6:00:32 PM ======");
 
         // Based On Gender Determine Max
@@ -23,8 +23,8 @@ public class d_4_HighestPaidEmployee {
 
         employeeList.stream().collect(
                 Collectors.groupingBy(
-                        Employee::getGender,
-                        Collectors.maxBy(Comparator.comparingDouble(Employee::getSalary))
+                        Employee1::getGender,
+                        Collectors.maxBy(Comparator.comparingDouble(Employee1::getSalary))
                 )
         ).forEach((k,v)-> System.out.println(k + "->"+v));
 

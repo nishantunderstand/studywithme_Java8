@@ -10,7 +10,7 @@ public class b_2_ListAllDepartments {
 
     public static void main(String[] args) {
         employeeList.stream()
-                .map(Employee::getDepartment)
+                .map(Employee1::getDepartment)
                 .distinct()
                 .forEach(System.out::println);
     }

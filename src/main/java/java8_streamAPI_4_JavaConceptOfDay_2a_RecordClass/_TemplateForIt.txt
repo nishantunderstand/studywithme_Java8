@@ -1,9 +1,3 @@
-package java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass;
-
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-
 record Employee(int id, String name, int age ,String gender, String department,int yearOfJoining, double salary) {
 }
 
