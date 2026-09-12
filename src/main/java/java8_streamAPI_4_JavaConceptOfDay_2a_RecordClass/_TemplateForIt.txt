@@ -1,6 +1,5 @@
 record Employee(int id, String name, int age ,String gender, String department,int yearOfJoining, double salary) {
 }
-
 class Main {
     public static void main(String[] args) {
        List<Employee> empList = Arrays.asList(
@@ -9,6 +8,5 @@ class Main {
             new Employee(12, "Anmanika", 24, "F", "IT", 2023, 70000),
             new Employee(13, "Anmanika Jee", 30, "F", "Finance", 2019, 80000)
         );
-
     }
 }
