@@ -7,7 +7,7 @@ import java.util.function.*;
 record Employee(int id, String name, int age ,String gender, String department,int yearOfJoining, double salary) {
 }
 
-class a_1_CountMaleAndFemaleEmployees {
+class Main {
     public static void main(String[] args) {
        List<Employee> empList = Arrays.asList(
             new Employee(11, "Aman", 25, "M", "IT", 2022, 75000),
