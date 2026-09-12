@@ -1,5 +1,7 @@
 package _java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -9,25 +11,18 @@ import static _java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass.Main.employeeLi
 * @see <a href="https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/">
 *     Java 8 Interview Sample Coding Questions </a>
 */
-public class c_3_AverageAgeByGender {
-
+class c_3_AverageAgeByGender {
     public static void main(String[] args) {
-        // Group By Gender
-        Map<String, Double> averageAgeBygender =
-                employeeList.stream()
-                        .collect(Collectors.groupingBy(
-                            Employee1::getGender,
-                            Collectors.averagingDouble(Employee1::getAge)
-        ));
-        System.out.println(averageAgeBygender);
+        List<Employee> empList = Arrays.asList(
+                new Employee(11, "Aman", 25, "M", "IT", 2022, 75000),
+                new Employee(20, "Aman Kumar", 28, "M", "HR", 2020, 65000),
+                new Employee(12, "Anmanika", 24, "F", "IT", 2023, 70000),
+                new Employee(13, "Anmanika Jee", 30, "F", "Finance", 2019, 80000)
+        );
 
-        System.out.println("====== Saturday, July 25, 2026 5:55:00 PM ======");
-        Map<String, Double> averageByDep =
-                employeeList.stream()
-                        .collect(Collectors.groupingBy(
-                                Employee1::getDepartment,
-                                Collectors.averagingDouble(Employee1::getAge)
-                        ));
-        System.out.println(averageByDep);
+        double avgAge = empList.stream() //
+                .map(Employee::age)
+                .average()
+                .get();
     }
 }

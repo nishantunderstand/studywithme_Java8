@@ -1,6 +1,7 @@
 package _java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -18,6 +19,52 @@ class b_2_ListAllDepartments {
                 new Employee(13, "Anmanika Jee", 30, "F", "Finance", 2019, 80000)
         );
 
-        empList.stream().forEach(System.out::println);
+        empList.stream()
+                .map(Employee::department)
+        .forEach(System.out::println);
+
+        System.out.println("====== Saturday, September 12, 2026 6:15:54 PM ======");
+
+        empList.stream()
+                .map(Employee::department)
+                .distinct()
+                .forEach(System.out::println);
+
+        System.out.println("====== Saturday, September 12, 2026 6:16:31 PM ======");
+
+//        empList.stream()
+//                .map(Employee::department)
+//                .sorted(Comparator.comparingValue(Employee::yearOfJoining)) // WRONG
+//                .forEach(System.out::println);
+
+
+//
+//                empList.stream()
+//                .map(Employee::department)
+//                .sorted(Comparator.comparing(Employee::yearOfJoining)) // WRONG
+//                .forEach(System.out::println) 🤔🤔🤔
+
+
+        System.out.println("====== Saturday, September 12, 2026 7:44:56 PM ======");
+        empList.stream()
+                .sorted(Comparator.comparing(Employee::id).reversed())
+                .forEach(System.out::println);
+
+
+
+        empList.stream()
+                .sorted(Comparator.comparing(Employee::id).reversed())
+                .map(Employee::yearOfJoining) // Why Order Matter ??
+                .forEach(System.out::println);
+
+        System.out.println("====== Saturday, September 12, 2026 7:48:59 PM ======");
+        empList.stream()
+                .sorted(Comparator.comparing(Employee::id).reversed())
+                .distinct()
+                .map(Employee::yearOfJoining)
+                .forEach(System.out::println);
+
     }
 }
+
+
