@@ -1,4 +1,4 @@
-package __Template;
+package _Template;
 
 import java.util.ArrayList;
 

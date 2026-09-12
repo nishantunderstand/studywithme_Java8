@@ -1,4 +1,4 @@
-package java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass;
+package _java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass;
 
 /**
 * @see <a href="https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/">

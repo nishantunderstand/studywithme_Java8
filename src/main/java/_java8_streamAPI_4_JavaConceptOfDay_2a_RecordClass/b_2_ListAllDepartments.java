@@ -1,6 +1,6 @@
-package java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass;
+package _java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass;
 
-import static java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass.Main.employeeList;
+import static _java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass.Main.employeeList;
 
 /**
 * @see <a href="https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/">

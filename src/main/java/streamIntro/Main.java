@@ -1,4 +1,4 @@
-package _streamIntro;
+package streamIntro;
 
 import java.util.List;
 

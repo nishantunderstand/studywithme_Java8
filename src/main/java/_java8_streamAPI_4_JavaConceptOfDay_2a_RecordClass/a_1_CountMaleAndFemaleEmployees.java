@@ -1,4 +1,4 @@
-package java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass;
+package _java8_streamAPI_4_JavaConceptOfDay_2a_RecordClass;
 
 import java.util.Arrays;
 import java.util.List;

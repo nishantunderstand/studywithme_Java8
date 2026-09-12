@@ -1,4 +1,4 @@
-package __Template;
+package _Template;
 
 public class Main {
     public static void main(String[] args) {
