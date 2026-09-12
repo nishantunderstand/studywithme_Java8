@@ -8,7 +8,7 @@ import java.util.stream.Stream;
  */
 
 
-public class DeloiteInterview_August18_2026 {
+public class Deloite_Interview_August18_2026 {
     public static void main(String[] args) {
         Integer[] ar1 ={1,2,3};
         Integer[] ar2 ={4,5,6};

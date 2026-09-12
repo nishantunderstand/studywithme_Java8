@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
  * Created : 2026-08-12 02:41:37
  */
 // 5. Count occurrences of each word using Streams.
-public class CountOccurenceOfEachWords {
+public class Accenture_CountOccurenceOfEachWords {
     public static void main(String[] args) {
         String input = "Java is good Java is powerful";
 

@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
  */
 
 // Count occurrences of each character using Streams.
-public class CountOccurenceOfEachCharacter {
+public class Accenture_CountOccurenceOfEachCharacter {
     public static void main(String[] args) {
 
         String input = "Java is good Java is powerful";

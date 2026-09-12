@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 
 import static java.util.Arrays.stream;
 
-// Wednesday, April 15, 2026 9:01:31 PM
-public class a_Paytm_1 {
+//// Wednesday, April 15, 2026 9:01:31 PM
+public class Paytm_20260415_1 {
 
     public static void main(String[] args) {
         String str = "aabbcdeff";
