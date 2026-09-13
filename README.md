@@ -1,23 +1,20 @@
-T
-E
-
-
-STO
-
-
-
-Wednesday, August 19, 2026 10:25 PM
-
-Regarding Notes
-I am always thankful for Original User.
-I am not taking your credit.
-I just have FOMO of notes getting lost.
-That's why i am keeping a copy that's all.
-I am always thankful to you.
-
-
+Sunday, September 13, 2026 7:15:26 PM
+- Always reason the code
+- Return type is really needed to understand the code.
+- Suppose if you want to increase something up in hierarchy use __for up in the hierarchy
 
 ---
+
+Wednesday, August 19, 2026 10:25 PM
+Regarding Notes : 
+- I am always thankful for Original User.
+- I am not taking your credit. 
+- I just have FOMO of notes getting lost. 
+- That's why i am keeping a copy that's all. 
+- I am always thankful to you.
+
+---
+
 Monday, August 17, 2026 8:16:06 PM
 - Use TODO to track it.
 - It works on Java Files Only.
@@ -34,11 +31,10 @@ Java Notes :
 - You can trust me.
 2. 2 Way linking
 
-
 ---
 
 - Sunday, July 19, 2026 2:52:48 PM
-- I taking baby Step to master it.
+- I am taking baby Step to master it.
 
 ---
 
@@ -51,8 +47,8 @@ It's like removing Initial Friction.
 ---
 - https://www.scientecheasy.com/2018/07/core-java-tutorial.html/
 - Refer this Website , Really Awesome Website. Really Awesome. According to me.
----
 
+---
 - Saturday, November 8, 2025 2:15:15 PM
 - Is this Sync to Github ? Yes
 - Definitely it is Synced with Github.
