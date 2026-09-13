@@ -20,9 +20,9 @@ class c_3_AverageAgeByGender {
                 new Employee(13, "Anmanika Jee", 30, "F", "Finance", 2019, 80000)
         );
 
-        double avgAge = empList.stream() //
-                .map(Employee::age)
-                .average()
-                .get();
+//        double avgAge = empList.stream() //
+//                .map(Employee::age)
+//                .average()
+//                .get();
     }
 }
