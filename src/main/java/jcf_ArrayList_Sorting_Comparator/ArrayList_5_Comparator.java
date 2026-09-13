@@ -1,4 +1,4 @@
-package __jcf_ArrayList_Sorting_Comparator;
+package jcf_ArrayList_Sorting_Comparator;
 
 
 

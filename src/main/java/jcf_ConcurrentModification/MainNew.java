@@ -1,4 +1,4 @@
-package _jcf_ConcurrentModification;
+package jcf_ConcurrentModification;
 
 import java.util.ArrayList;
 import java.util.Iterator;
