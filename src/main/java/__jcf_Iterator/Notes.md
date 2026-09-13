@@ -14,7 +14,7 @@
                     ArrayList       → ✅
 
 
-Collection
+```
 |
 +--------------------+
 |                    |
@@ -25,7 +25,7 @@ ListIterator         collection
 Spliterator           + iterator
 Stream
 
-----------------------------------------
+
 
 Iterator
 ListIterator
@@ -47,7 +47,7 @@ Fixed-size                    Resizable
 remove ❌                       remove ✅
 
 
-
+```
                      List
                       |
           +-----------+------------+
