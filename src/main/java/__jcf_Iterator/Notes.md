@@ -45,3 +45,17 @@ Arrays.asList(...)              new ArrayList<>(...)
 Fixed-size                    Resizable
 |                              |
 remove ❌                       remove ✅
+
+
+
+                     List
+                      |
+          +-----------+------------+
+          |           |            |
+     Arrays.asList  ArrayList   CopyOnWriteArrayList
+          |           |            |
+      fixed-size    mutable       mutable
+          |           |            |
+       Iterator    Iterator      Iterator
+          |           |            |
+       remove ❌   remove ✅      remove ❌
