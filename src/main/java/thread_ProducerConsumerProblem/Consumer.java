@@ -1,4 +1,4 @@
-package _thread_ProducerConsumerProblem;
+package thread_ProducerConsumerProblem;
 
 public class Consumer {
 

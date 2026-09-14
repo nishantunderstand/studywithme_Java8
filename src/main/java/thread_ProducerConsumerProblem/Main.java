@@ -1,4 +1,4 @@
-package _thread_ProducerConsumerProblem;
+package thread_ProducerConsumerProblem;
 
 public class Main {
     public static void main(String[] args) {

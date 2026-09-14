@@ -1,4 +1,4 @@
-package accessModiferAndException;
+package method_accessModiferAndException;
 
 public class Parent {
     void test() throws Exception {

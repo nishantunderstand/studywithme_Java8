@@ -1,4 +1,4 @@
-package accessModiferAndException;
+package method_accessModiferAndException;
 
 class Child extends Parent {
 

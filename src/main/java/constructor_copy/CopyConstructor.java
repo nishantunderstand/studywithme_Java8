@@ -1,4 +1,4 @@
-package copyConstructor;
+package constructor_copy;
 
 import java.util.Date;
 

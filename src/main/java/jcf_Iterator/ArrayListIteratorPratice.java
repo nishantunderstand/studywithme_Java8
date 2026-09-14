@@ -1,4 +1,4 @@
-package __jcf_Iterator;
+package jcf_Iterator;
 
 import java.util.Arrays;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package java8_CustomFunctionalInterface;
+package java8_CustomFunctionalInterface_1;
 
 //Created : 2026-08-18 20:51:03
 
